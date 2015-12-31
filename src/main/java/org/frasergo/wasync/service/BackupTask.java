@@ -33,10 +33,13 @@ import java.util.Locale;
 
 import static org.frasergo.wasync.App.LOCAL_LOGV;
 import static org.frasergo.wasync.App.TAG;
+/*
 import static org.frasergo.wasync.mail.DataType.CALLLOG;
 import static org.frasergo.wasync.mail.DataType.Defaults;
 import static org.frasergo.wasync.mail.DataType.MMS;
 import static org.frasergo.wasync.mail.DataType.SMS;
+*/
+import static org.frasergo.wasync.mail.DataType.Defaults;
 import static org.frasergo.wasync.service.state.SmsSyncState.BACKUP;
 import static org.frasergo.wasync.service.state.SmsSyncState.CALC;
 import static org.frasergo.wasync.service.state.SmsSyncState.CANCELED_BACKUP;
@@ -139,7 +142,9 @@ class BackupTask extends AsyncTask<BackupConfig, BackupState, BackupState> {
             final int itemsToSync = cursors.count();
 
             if (itemsToSync > 0) {
+                /*
                 appLog(R.string.app_log_backup_messages, cursors.count(SMS), cursors.count(MMS), cursors.count(CALLLOG));
+                */
                 if (config.debug) {
                     appLog(R.string.app_log_backup_messages_with_config, config);
                 }
@@ -148,12 +153,14 @@ class BackupTask extends AsyncTask<BackupConfig, BackupState, BackupState> {
             } else {
                 appLog(R.string.app_log_skip_backup_no_items);
 
+                /*
                 if (preferences.isFirstBackup()) {
                     // If this is the first backup we need to write something to MAX_SYNCED_DATE
                     // such that we know that we've performed a backup before.
                     SMS.setMaxSyncedDate(service, Defaults.MAX_SYNCED_DATE);
                     MMS.setMaxSyncedDate(service, Defaults.MAX_SYNCED_DATE);
                 }
+                */
                 Log.i(TAG, "Nothing to do.");
                 return transition(FINISHED_BACKUP, null);
             }
@@ -265,9 +272,11 @@ class BackupTask extends AsyncTask<BackupConfig, BackupState, BackupState> {
 
                     store.getFolder(cursor.type).appendMessages(messages);
 
+                    /*
                     if (cursor.type == CALLLOG && calendarSyncer != null) {
                         calendarSyncer.syncCalendar(result);
                     }
+                    */
                     cursor.type.setMaxSyncedDate(service, result.getMaxDate());
                     backedUpItems += messages.size();
                 } else {

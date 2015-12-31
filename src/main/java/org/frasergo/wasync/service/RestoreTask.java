@@ -34,8 +34,10 @@ import java.util.Set;
 
 import static org.frasergo.wasync.App.LOCAL_LOGV;
 import static org.frasergo.wasync.App.TAG;
+/*
 import static org.frasergo.wasync.mail.DataType.CALLLOG;
 import static org.frasergo.wasync.mail.DataType.SMS;
+*/
 import static org.frasergo.wasync.service.state.SmsSyncState.CALC;
 import static org.frasergo.wasync.service.state.SmsSyncState.CANCELED_RESTORE;
 import static org.frasergo.wasync.service.state.SmsSyncState.ERROR;
@@ -101,12 +103,14 @@ class RestoreTask extends AsyncTask<RestoreConfig, RestoreState, RestoreState> {
 
             final List<Message> msgs = new ArrayList<Message>();
 
+            /*
             if (config.restoreSms) {
                 msgs.addAll(imapStore.getFolder(SMS).getMessages(config.maxRestore, config.restoreOnlyStarred, null));
             }
             if (config.restoreCallLog) {
                 msgs.addAll(imapStore.getFolder(CALLLOG).getMessages(config.maxRestore, config.restoreOnlyStarred, null));
             }
+            */
 
             final int itemsToRestoreCount = config.maxRestore <= 0 ? msgs.size() : Math.min(msgs.size(), config.maxRestore);
 
@@ -225,12 +229,14 @@ class RestoreTask extends AsyncTask<RestoreConfig, RestoreState, RestoreState> {
             dataType = converter.getDataType(message);
             //only restore sms+call log for now
             switch (dataType) {
+                /*
                 case CALLLOG:
                     importCallLog(message);
                     break;
                 case SMS:
                     importSms(message);
                     break;
+                */
                 default:
                     if (LOCAL_LOGV) Log.d(TAG, "ignoring restore of type: " + dataType);
             }
@@ -240,8 +246,10 @@ class RestoreTask extends AsyncTask<RestoreConfig, RestoreState, RestoreState> {
         } catch (IllegalArgumentException e) {
             // http://code.google.com/p/android/issues/detail?id=2916
             Log.e(TAG, "error", e);
+        /*
         } catch (IOException e) {
             Log.e(TAG, "error", e);
+        */
         }
         return dataType;
     }
@@ -259,9 +267,11 @@ class RestoreTask extends AsyncTask<RestoreConfig, RestoreState, RestoreState> {
                 smsIds.add(uri.getLastPathSegment());
                 Long timestamp = values.getAsLong(SmsConsts.DATE);
 
+                /*
                 if (timestamp != null && SMS.getMaxSyncedDate(service) < timestamp) {
                     SMS.setMaxSyncedDate(service, timestamp);
                 }
+                */
 
                 if (LOCAL_LOGV) Log.v(TAG, "inserted " + uri);
             }

@@ -96,10 +96,12 @@ public class MessageConverter {
         switch (mMarkAsReadType) {
             case MESSAGE_STATUS:
                 switch (dataType) {
+                    /*
                     case SMS:
                         return "1".equals(msgMap.get(SmsConsts.READ));
                     case MMS:
                         return "1".equals(msgMap.get(MmsConsts.READ));
+                    */
                     default:
                         return true;
                 }
@@ -140,6 +142,7 @@ public class MessageConverter {
 
         final ContentValues values = new ContentValues();
         switch (getDataType(message)) {
+            /*
             case SMS:
                 if (message.getBody() == null) throw new MessagingException("body is null");
 
@@ -174,11 +177,11 @@ public class MessageConverter {
                 }
 
                 break;
+            */
             default:
                 throw new MessagingException("don't know how to restore " + getDataType(message));
         }
 
-        return values;
     }
 
     public DataType getDataType(Message message) {
@@ -190,6 +193,7 @@ public class MessageConverter {
         //current: there IS a Headers.DATATYPE containing a string representation of Headers.DataType
         //         Headers.TYPE then contains the type of the sms, mms or calllog entry
         //The current header set was introduced in version 1.2.00
+        /*
         if (dataTypeHeader == null) {
             return MmsConsts.LEGACY_HEADER.equalsIgnoreCase(typeHeader) ? DataType.MMS : DataType.SMS;
         } else {
@@ -199,6 +203,9 @@ public class MessageConverter {
                 return DataType.SMS; // whateva
             }
         }
+        */
+        // it's not really, but that's the only data type
+        return DataType.WHATSAPP;
     }
 
     private Map<String, String> getMessageMap(Cursor cursor) {

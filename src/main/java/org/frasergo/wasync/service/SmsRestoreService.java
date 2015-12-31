@@ -28,8 +28,10 @@ import java.io.FilenameFilter;
 
 import static org.frasergo.wasync.App.LOCAL_LOGV;
 import static org.frasergo.wasync.App.TAG;
+/*
 import static org.frasergo.wasync.mail.DataType.CALLLOG;
 import static org.frasergo.wasync.mail.DataType.SMS;
+*/
 import static org.frasergo.wasync.service.state.SmsSyncState.ERROR;
 
 public class SmsRestoreService extends ServiceBase {
@@ -73,8 +75,12 @@ public class SmsRestoreService extends ServiceBase {
         if (isWorking()) return;
 
         try {
+            /*
             final boolean restoreCallLog = CALLLOG.isRestoreEnabled(service);
             final boolean restoreSms     = SMS.isRestoreEnabled(service);
+            */
+            final boolean restoreCallLog = false;
+            final boolean restoreSms = false;
 
             if (restoreSms && !canWriteToSmsProvider()) {
                 postError(new SmsProviderNotWritableException());

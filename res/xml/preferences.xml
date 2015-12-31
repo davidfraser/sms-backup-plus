@@ -58,6 +58,7 @@
         <PreferenceScreen
                 android:title="@string/ui_backup_settings_label">
 
+        <!--
             <CheckBoxPreference
                     android:key="backup_sms"
                     android:title="@string/ui_backup_sms_label"
@@ -78,6 +79,7 @@
                     android:summary="@string/ui_backup_calllog_desc"
                     android:persistent="true"
                     android:defaultValue="false"/>
+        -->
 
             <CheckBoxPreference
                     android:key="backup_whatsapp"
@@ -96,6 +98,7 @@
                     android:persistent="true"
                     android:defaultValue="WhatsApp"/>
 
+            <!--
             <PreferenceScreen
                     android:title="@string/ui_backup_calllog_settings_label"
                     android:dependency="backup_calllog">
@@ -120,7 +123,7 @@
                         android:entries="@array/backup_calllog_types_entries"
                         android:entryValues="@array/backup_calllog_types_values"/>
 
-                <!-- add call log entries to calendar -->
+                <!- add call log entries to calendar ->
                 <CheckBoxPreference
                         android:key="backup_calllog_sync_calendar_enabled"
                         android:title="@string/ui_backup_calllog_sync_calendar_enabled_label"
@@ -135,6 +138,7 @@
                         android:defaultValue="-1"
                         android:summary="@string/ui_backup_calllog_sync_calendar_desc"/>
             </PreferenceScreen>
+            -->
 
             <ListPreference
                     android:key="max_items_per_sync"
@@ -154,6 +158,7 @@
                     android:persistent="true"
                     android:defaultValue="read"/>
 
+            <!--
             <EditTextPreference
                     android:key="imap_folder"
                     android:title="@string/ui_imap_folder_label"
@@ -162,6 +167,7 @@
                     android:dialogMessage="@string/ui_imap_folder_label_dialog_msg"
                     android:persistent="true"
                     android:defaultValue="SMS"/>
+            -->
 
             <ListPreference
                     android:key="backup_contact_group"
@@ -187,6 +193,7 @@
 
         </PreferenceScreen>
 
+        <!--
         <PreferenceScreen
                 android:title="@string/ui_restore_settings_label">
 
@@ -236,6 +243,7 @@
                     android:defaultValue="true"/>
 
         </PreferenceScreen>
+        -->
 
         <CheckBoxPreference
                 android:key="notifications"

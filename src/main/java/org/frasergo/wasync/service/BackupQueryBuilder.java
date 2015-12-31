@@ -59,15 +59,18 @@ class BackupQueryBuilder {
 
     public @Nullable Query buildQueryForDataType(DataType type, @Nullable ContactGroupIds groupIds, int max) {
         switch (type) {
+            /*
             case SMS:     return getQueryForSMS(groupIds, max);
             case MMS:     return getQueryForMMS(groupIds, max);
             case CALLLOG: return getQueryForCallLog(max);
+            */
             default:      return null;
         }
     }
 
     public @Nullable Query buildMostRecentQueryForDataType(DataType type) {
         switch (type) {
+            /*
             case MMS:
                 return new Query(
                     Consts.MMS_PROVIDER,
@@ -89,12 +92,14 @@ class BackupQueryBuilder {
                     null,
                     null,
                     CallLog.Calls.DATE + " DESC LIMIT 1");
+            */
             default:
                 return null;
         }
     }
 
     private Query getQueryForSMS(@Nullable ContactGroupIds groupIds, int max) {
+        /*
         return new Query(Consts.SMS_PROVIDER,
             null,
             String.format(Locale.ENGLISH,
@@ -107,9 +112,12 @@ class BackupQueryBuilder {
                 String.valueOf(SmsConsts.MESSAGE_TYPE_DRAFT)
             },
             max);
+        */
+        return null;
     }
 
     private Query getQueryForMMS(@Nullable ContactGroupIds group, int max) {
+        /*
         long maxSynced = MMS.getMaxSyncedDate(context);
         if (maxSynced > 0) {
             // NB: max synced date is stored in seconds since epoch in database
@@ -127,9 +135,12 @@ class BackupQueryBuilder {
                 MmsConsts.DELIVERY_REPORT
             },
             max);
+        */
+        return null;
     }
 
     private Query getQueryForCallLog(int max) {
+        /*
         return new Query(
             Consts.CALLLOG_PROVIDER,
             CALLLOG_PROJECTION,
@@ -138,10 +149,13 @@ class BackupQueryBuilder {
                 String.valueOf(CALLLOG.getMaxSyncedDate(context))
             },
             max);
+        */
+        return null;
     }
 
     private String groupSelection(DataType type, @Nullable ContactGroupIds group) {
         /* Only MMS selection is supported at the moment */
+        /*
         if (type != SMS || group == null) {
             return "";
         }
@@ -154,5 +168,7 @@ class BackupQueryBuilder {
             SmsConsts.MESSAGE_TYPE_SENT,
             SmsConsts.PERSON,
             TextUtils.join(",", ids.toArray(new Long[ids.size()])));
+        */
+        return null;
     }
 }

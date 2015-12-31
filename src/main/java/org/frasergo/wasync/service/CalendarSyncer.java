@@ -34,7 +34,10 @@ class CalendarSyncer {
     public void syncCalendar(ConversionResult result) {
         enableSync();
 
+        if (result.type != null) return;
+        /*
         if (result.type != DataType.CALLLOG) return;
+        */
         for (Map<String, String> m : result.getMapList()) {
             try {
                 final int duration = Integer.parseInt(m.get(CallLog.Calls.DURATION));

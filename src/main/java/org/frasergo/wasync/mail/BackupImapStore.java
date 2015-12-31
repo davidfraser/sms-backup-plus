@@ -195,6 +195,7 @@ public class BackupImapStore extends ImapStore {
         private String getQuery() {
             switch (this.type) {
             /* MMS/SMS are special cases since we need to support legacy backup headers */
+                /*
                 case SMS:
                     return
                             String.format(Locale.ENGLISH, "(OR HEADER %s \"%s\" (NOT HEADER %s \"\" (OR HEADER %s \"%d\" HEADER %s \"%d\")))",
@@ -209,6 +210,7 @@ public class BackupImapStore extends ImapStore {
                                     Headers.DATATYPE.toUpperCase(Locale.ENGLISH),
                                     Headers.TYPE.toUpperCase(Locale.ENGLISH), MmsConsts.LEGACY_HEADER);
 
+                */
                 default:
                     return String.format(Locale.ENGLISH, "(HEADER %s \"%s\")", Headers.DATATYPE.toUpperCase(Locale.ENGLISH), type);
             }

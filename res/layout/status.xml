@@ -72,11 +72,13 @@
                 android:text="@string/ui_sync_button_label_idle"
                 android:textStyle="bold" />
 
+            <!--
             <Button
                 android:id="@+id/restore_button"
                 android:gravity="center"
                 android:text="@string/ui_restore_button_label_idle"
                 android:textStyle="bold" />
+            -->
 
         </TableRow>
     </TableLayout>

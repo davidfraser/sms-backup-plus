@@ -78,8 +78,10 @@ class StatusPreference extends Preference implements View.OnClickListener {
             mBackupButton = (Button) mView.findViewById(R.id.sync_button);
             mBackupButton.setOnClickListener(this);
 
+            /*
             mRestoreButton = (Button) mView.findViewById(R.id.restore_button);
             mRestoreButton.setOnClickListener(this);
+            */
 
             mStatusIcon = (ImageView) mView.findViewById(R.id.status_icon);
             mStatusLabel = (TextView) mView.findViewById(R.id.status_label);

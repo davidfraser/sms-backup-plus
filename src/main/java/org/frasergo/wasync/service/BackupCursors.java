@@ -41,7 +41,10 @@ public class BackupCursors implements Iterator<BackupCursors.CursorAndType> {
         }
 
         public static CursorAndType empty() {
+            /*
             return new CursorAndType(DataType.SMS, emptyCursor());
+            */
+            return null;
         }
     }
 

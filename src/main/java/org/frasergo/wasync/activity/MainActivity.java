@@ -81,9 +81,11 @@ import java.util.List;
 import java.util.Locale;
 
 import static org.frasergo.wasync.App.TAG;
+/*
 import static org.frasergo.wasync.mail.DataType.CALLLOG;
 import static org.frasergo.wasync.mail.DataType.MMS;
 import static org.frasergo.wasync.mail.DataType.SMS;
+ */
 import static org.frasergo.wasync.preferences.Preferences.Keys.BACKUP_CONTACT_GROUP;
 import static org.frasergo.wasync.preferences.Preferences.Keys.BACKUP_SETTINGS_SCREEN;
 import static org.frasergo.wasync.preferences.Preferences.Keys.CALLLOG_SYNC_CALENDAR;
@@ -134,12 +136,13 @@ public class MainActivity extends PreferenceActivity {
         getPreferenceScreen().addPreference(statusPref);
 
         int version = Build.VERSION.SDK_INT;
-        if (version < MIN_VERSION_MMS) {
+        /*if (version < MIN_VERSION_MMS) {
             CheckBoxPreference backupMms = (CheckBoxPreference) findPreference(MMS.backupEnabledPreference);
             backupMms.setEnabled(false);
             backupMms.setChecked(false);
             backupMms.setSummary(R.string.ui_backup_mms_not_supported);
         }
+        */
         if (preferences.shouldShowUpgradeMessage()) show(Dialogs.UPGRADE_FROM_SMSBACKUP);
         setPreferenceListeners(version >= MIN_VERSION_BACKUP);
 
@@ -407,15 +410,19 @@ public class MainActivity extends PreferenceActivity {
     }
 
     private void updateImapFolderLabelFromPref() {
+/*
         String imapFolder = SMS.getFolder(this);
         Preference pref = findPreference(SMS.folderPreference);
         pref.setTitle(imapFolder);
+*/
     }
 
     private void updateImapCallogFolderLabelFromPref() {
+/*
         String imapFolder = CALLLOG.getFolder(this);
         Preference pref = findPreference(CALLLOG.folderPreference);
         pref.setTitle(imapFolder);
+*/
     }
 
     private void initGroups() {
@@ -856,6 +863,7 @@ public class MainActivity extends PreferenceActivity {
             }
         });
 
+/*
         findPreference(SMS.folderPreference)
                 .setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
                     public boolean onPreferenceChange(Preference preference, final Object newValue) {
@@ -895,6 +903,7 @@ public class MainActivity extends PreferenceActivity {
                         }
                     }
                 });
+*/
     }
 
     private void checkUserDonationStatus() {

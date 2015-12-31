@@ -11,6 +11,8 @@ import java.util.EnumSet;
 import java.util.List;
 
 public enum DataType {
+    // To test WassupBackup fork, comment out SMS, MMS, and CALLLOG and disable code that breaks
+    // Left in so tests compile...
     SMS     (R.string.sms,      R.string.sms_with_field,     PreferenceKeys.IMAP_FOLDER,          Defaults.SMS_FOLDER,     PreferenceKeys.BACKUP_SMS,      Defaults.SMS_BACKUP_ENABLED,     PreferenceKeys.RESTORE_SMS,     Defaults.SMS_RESTORE_ENABLED,     PreferenceKeys.MAX_SYNCED_DATE_SMS,      -1),
     MMS     (R.string.mms,      R.string.mms_with_field,     PreferenceKeys.IMAP_FOLDER,          Defaults.SMS_FOLDER,     PreferenceKeys.BACKUP_MMS,      Defaults.MMS_BACKUP_ENABLED,     null,                           Defaults.MMS_RESTORE_ENABLED,     PreferenceKeys.MAX_SYNCED_DATE_MMS,      Build.VERSION_CODES.ECLAIR),
     CALLLOG (R.string.calllog,  R.string.call_with_field,    PreferenceKeys.IMAP_FOLDER_CALLLOG,  Defaults.CALLLOG_FOLDER, PreferenceKeys.BACKUP_CALLLOG,  Defaults.CALLLOG_BACKUP_ENABLED, PreferenceKeys.RESTORE_CALLLOG, Defaults.CALLLOG_RESTORE_ENABLED, PreferenceKeys.MAX_SYNCED_DATE_CALLLOG,  -1),
@@ -82,11 +84,7 @@ public enum DataType {
      */
     public long getMaxSyncedDate(Context context) {
         long maxSynced = prefs(context).getLong(maxSyncedPreference, Defaults.MAX_SYNCED_DATE);
-        if (this == MMS && maxSynced > 0) {
-            return maxSynced * 1000L;
-        } else {
-            return maxSynced;
-        }
+        return maxSynced;
     }
 
     public boolean setMaxSyncedDate(Context context, long max) {
@@ -108,10 +106,7 @@ public enum DataType {
     }
 
     public static long getMostRecentSyncedDate(Context ctx) {
-        return Math.max(Math.max(
-                SMS.getMaxSyncedDate(ctx),
-                CALLLOG.getMaxSyncedDate(ctx)),
-                MMS.getMaxSyncedDate(ctx));
+        return WHATSAPP.getMaxSyncedDate(ctx);
     }
 
     public static void clearLastSyncData(Context ctx) {

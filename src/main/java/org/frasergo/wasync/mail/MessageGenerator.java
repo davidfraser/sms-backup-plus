@@ -70,18 +70,22 @@ class MessageGenerator {
 
     public  @Nullable Message messageForDataType(Map<String, String> msgMap, DataType dataType) throws MessagingException {
         switch (dataType) {
+            /*
             case SMS: return messageFromMapSms(msgMap);
             case MMS: return messageFromMapMms(msgMap);
             case CALLLOG: return messageFromMapCallLog(msgMap);
+            */
             default: return null;
         }
     }
 
     private @Nullable Message messageFromMapSms(Map<String, String> msgMap) throws MessagingException {
+        /*
         final String address = msgMap.get(SmsConsts.ADDRESS);
         if (TextUtils.isEmpty(address)) return null;
 
         PersonRecord record = mPersonLookup.lookupPerson(address);
+
         if (!includePersonInBackup(record, DataType.SMS)) return null;
 
         final Message msg = new MimeMessage();
@@ -109,9 +113,12 @@ class MessageGenerator {
         mHeaderGenerator.setHeaders(msg, msgMap, DataType.SMS, address, record, sentDate, messageType);
         msg.setUsing7bitTransport();
         return msg;
+        */
+        return null;
     }
 
     private @Nullable Message messageFromMapMms(Map<String, String> msgMap) throws MessagingException {
+        /*
         if (LOCAL_LOGV) Log.v(TAG, "messageFromMapMms(" + msgMap + ")");
 
         final Uri mmsUri = Uri.withAppendedPath(Consts.MMS_PROVIDER, msgMap.get(MmsConsts.ID));
@@ -155,9 +162,12 @@ class MessageGenerator {
         setBody(msg, body);
         msg.setUsing7bitTransport();
         return msg;
+        */
+        return null;
     }
 
     private  @Nullable Message messageFromMapCallLog(Map<String, String> msgMap) throws MessagingException {
+        /*
         final String address = msgMap.get(CallLog.Calls.NUMBER);
         final int callType = toInt(msgMap.get(CallLog.Calls.TYPE));
 
@@ -202,6 +212,8 @@ class MessageGenerator {
         mHeaderGenerator.setHeaders(msg, msgMap, DataType.CALLLOG, address, record, sentDate, callType);
         msg.setUsing7bitTransport();
         return msg;
+        */
+        return null;
     }
 
     public @Nullable Message messageFromMapWhatsApp(Cursor cursor) throws MessagingException {
