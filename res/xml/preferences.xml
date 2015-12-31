@@ -63,28 +63,28 @@
                     android:title="@string/ui_backup_sms_label"
                     android:summary="@string/ui_backup_sms_desc"
                     android:persistent="true"
-                    android:defaultValue="true"/>
+                    android:defaultValue="false"/>
 
             <CheckBoxPreference
                     android:key="backup_mms"
                     android:title="@string/ui_backup_mms_label"
                     android:summary="@string/ui_backup_mms_desc"
                     android:persistent="true"
-                    android:defaultValue="true"/>
+                    android:defaultValue="false"/>
 
             <CheckBoxPreference
                     android:key="backup_calllog"
                     android:title="@string/ui_backup_calllog_label"
                     android:summary="@string/ui_backup_calllog_desc"
                     android:persistent="true"
-                    android:defaultValue="true"/>
+                    android:defaultValue="false"/>
 
             <CheckBoxPreference
                     android:key="backup_whatsapp"
                     android:title="@string/ui_backup_whatsapp_label"
                     android:summary="@string/ui_backup_whatsapp_desc"
                     android:persistent="true"
-                    android:defaultValue="false"/>
+                    android:defaultValue="true"/>
 
             <EditTextPreference
                     android:key="imap_folder_whatsapp"
@@ -195,7 +195,7 @@
                     android:title="@string/ui_restore_sms_label"
                     android:summary="@string/ui_restore_sms_desc"
                     android:persistent="true"
-                    android:defaultValue="true"/>
+                    android:defaultValue="false"/>
 
             <CheckBoxPreference
                     android:key="restore_mms"
@@ -210,7 +210,7 @@
                     android:title="@string/ui_restore_calllog_label"
                     android:summary="@string/ui_restore_calllog_desc"
                     android:persistent="true"
-                    android:defaultValue="true"/>
+                    android:defaultValue="false"/>
 
             <CheckBoxPreference
                     android:key="restore_starred_only"
