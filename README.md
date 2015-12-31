@@ -1,35 +1,20 @@
-## SMS Backup+
+## Whassup Backup
 
 [![][Icon]][PlayLink]
 [![Build Status PNG][]][Build Status]
 
-This is a fork of the Android backup tool
-[SMS Backup](http://code.google.com/p/android-sms), where development has
-stopped a while ago. It uses Gmail to perform SMS, MMS and call log backups over
-the network.
+This is a fork of the Android SMS backup tool
+[SMS Backup Plus](https://github.com/jberkel/sms-backup-plus), which temporarily also
+provided support for backing up WhatsApp messages. It uses Gmail or IMAP to perform
+WhatsApp message backups over the network.
 
 Main differences / improvements:
 
-  * New restore feature. SMS stored on Gmail can be transferred back to the
-  phone. This even works for users who have already created their backups with
-  older versions of SMS Backup. Note: MMS are currently not restored.
-
-  * XOAuth: SMS Backup+ will never ask you for your Gmail password. Instead it
-  uses [XOAuth](http://code.google.com/apis/gmail/oauth/) to get access to your
-  data. You can revoke the access rights at any time.
-
-  * MMS backup support (since `1.1`), only available on Android 2.x
-
-  * Call log backup (since `1.2`), with Google Calendar integration (since
-  `1.3.`) and restore (since `1.4`).
-
-  * Batch size limits removed.
-
-  * Works with any IMAP server (but defaults to Gmail).
+  * Retains WhatsApp backup support.
 
 Tested with Android 2.x - 5.1.x.
 
-SMS Backup+ is available for free in the Google Play Store, there will never be a pro / paid version.
+Whassup Backup is available for free in the Google Play Store, there will never be a pro / paid version.
 
 But if you find the app useful and want to support the development of it you can make a donation
 from within the app itself, using the secure Play Store payment mechanism.
@@ -49,7 +34,7 @@ You need to have an IMAP account or a Gmail account with IMAP enabled. See the
 [Enabling IMAP in Gmail][] help page to learn how to enable IMAP for your Gmail
 account or look at this [screenshot][imapenableshot].
 
-After starting SMS Backup+, tap on the "Connect" check box to start the
+After starting Whassup Backup, tap on the "Connect" check box to start the
 authorization process.
 
 On newer Android devices you'll be presented with a list of Gmail accounts to
@@ -57,25 +42,25 @@ be used for the backup. You'll need to give SMSBackup+ the permission to access 
 emails.
 
 On older devices a browser window will open where Gmail prompts you to log in and asks you to give
-SMS Backup+ permission to access your emails.
+Whassup Backup permission to access your emails.
 
-After selecting "Grant Access" SMS Backup+ will become visible again, the
+After selecting "Grant Access" Whassup Backup will become visible again, the
 checkbox should now be checked, indicating that the authorization process was
 successful.
 
 ### Initial backup
 
-It is important that you perform the first backup manually. SMS Backup+ needs
+It is important that you perform the first backup manually. Whassup Backup needs
 to know whether you want to upload messages currently stored on your device or
 not.
 
-After having connected your Gmail account, SMS Backup+ will ask you to perform
-a first sync. If you choose "Backup", SMS Backup+ will start backing up all
+After having connected your Gmail account, Whassup Backup will ask you to perform
+a first sync. If you choose "Backup", Whassup Backup will start backing up all
 your messages to Gmail.
 
 If you choose "Skip", nothing is sent to Gmail and all messages currently
 stored on your device are simply marked "backed up". This option is handy if
-you previously uninstalled SMS Backup+ and do not want to send your messages
+you previously uninstalled Whassup Backup and do not want to send your messages
 again to Gmail. Please note that any messages arrived after you last
 uninstalled SMS Backup and this initial backup won't ever be backed up to
 Gmail.
@@ -85,11 +70,11 @@ Gmail.
 If you wish to restore messages back to your phone tap "Restore". By default
 all messages stored on Gmail will be restored (this can be changed in "Advanced
 Settings"). You can safely restore to a phone which has already message stored
-on it, SMS Backup+ will skip the restore of already existing messages.
+on it, Whassup Backup will skip the restore of already existing messages.
 
 ### <a name="call-log-support">Call log support</a>
 
-SMS Backup+ can also backup and restore your call logs. It stores all calls using a
+Whassup Backup can also backup and restore your call logs. It stores all calls using a
 separate label (defaults to `Call log`, but can be changed in Advanced
 Settings). If you wish you can set this to the same value as `SMS`, to make all backed
 up data use the same label.
@@ -118,7 +103,7 @@ named [Tri-Crypt][]. You can find instructions [here][WhatsApp-Workaround] (than
 
 Please don't file bug reports against this, WhatsApp backup support is no longer supported.
 
-If you still want to enable the backup in SMS Backup+, go to "Advanced Settings",
+If you still want to enable the backup in Whassup Backup, go to "Advanced Settings",
 then "Backup Settings" and tick the "Backup WhatsApp" checkbox.
 
 The messages will be backed up to the "WhatsApp" label in Gmail.
@@ -145,7 +130,7 @@ automatically be created the first time you're performing a backup.
 ## <a name="faq">FAQ</a>
 
   * [I enabled the WhatsApp backup, but my messages don't get backed up!](#whatsapp-does-not-get-backed-up)
-  * [Why does SMS Backup+ ask to become the default SMS app?](#faq-default-app)
+  * [Why does Whassup Backup ask to become the default SMS app?](#faq-default-app)
   * [Why does it need so many permissions?](#faq-permissions)
   * [I want to file a bug report, what should I do?](#faq-file-bug-report)
   * [Can you add feature X ?](#faq-can-you-add-feature-x)
@@ -179,7 +164,7 @@ twice.
 First check [github issues][] to see if the bug has already been reported. If not, create a new
 issue and attach the following details:
 
- * Version of SMS Backup+ used
+ * Version of Whassup Backup used
  * Version of Android / brand of phone used
 
 If it is related to backing up / restoring you should also enable the sync log in debug mode
@@ -189,7 +174,7 @@ If it is related to backing up / restoring you should also enable the sync log i
 To attach the sync log create a "gist" (https://gist.github.com) and link to the gist you created instead
 of posting the full content in the issue.
 
-It might also be worth to install the current <a href="#beta">beta</a> version of SMS Backup+ to
+It might also be worth to install the current <a href="#beta">beta</a> version of Whassup Backup to
 make sure the bug has not already been fixed.
 
 #### <a name="faq-can-you-add-feature-x">Can you add feature X ?</a>
@@ -245,11 +230,11 @@ means that the device will try to backup all messages every 2 hours.
 Fewer updates performed by the app means less energy consumed, so there's
 a trade-off data protection vs. battery life.
 
-#### <a name="faq-scheduling">I'd like SMS Backup+ to schedule a backup only at a given time of the day / when Wifi is available / etc.</a>
+#### <a name="faq-scheduling">I'd like Whassup Backup to schedule a backup only at a given time of the day / when Wifi is available / etc.</a>
 
-If you require more control over the backup schedule than what SMS Backup+ already
+If you require more control over the backup schedule than what Whassup Backup already
 provides you can use a 3rd party app to trigger the backup. [Tasker][] for
-example supports SMS Backup+ since version 1.0.14.
+example supports Whassup Backup since version 1.0.14.
 
 #### <a name="faq-gmail-100">The app saves only 100 SMS/MMS per contact!</a>
 
@@ -272,7 +257,7 @@ In Gmail settings, set conversation view to `off`
 <a name="faq-delete"/>
 #### <a name="faq-does-it-sync">When I delete a text locally, will it delete the saved copy on Gmail?</a>
 
-No. SMS Backup+ does not do a "real" sync, once the text has been transferred
+No. Whassup Backup does not do a "real" sync, once the text has been transferred
 to Gmail it won't get modified or deleted by the app.
 
 #### <a name="sms-as-calls">My messages get backed up as calls!</a>
@@ -293,11 +278,11 @@ reasons why this might happen:
 
 You can try to set the IMAP Server Setting `Security` to `SSL (optional / trust all)`.
 
-#### <a name="faq-default-app">Why does SMS Backup+ ask to become the default SMS app?</a>
+#### <a name="faq-default-app">Why does Whassup Backup ask to become the default SMS app?</a>
 
 Google has changed the way SMS permissions work starting with Android KitKat. In order
 to get write access to your messages an app has to be set as the default system SMS app. Before starting
-the restore operation SMS Backup+ will request your permission to be set as default app. After the
+the restore operation Whassup Backup will request your permission to be set as default app. After the
 restore has finished you will be asked to set the previous choice (usually 'Messaging')
 back as default. This last step is important, if you don't set the old default back you might lose
 new messages.
@@ -320,10 +305,10 @@ This is a known bug: [#94](https://github.com/jberkel/sms-backup-plus/issues/94)
 
 ### Authentication questions
 
-#### <a name="faq-revoke-access">How can I revoke SMS Backup+ access</a>
+#### <a name="faq-revoke-access">How can I revoke Whassup Backup access</a>
 
 Go to [Authorized Access to your Google Account][] and select "Revoke Access"
-next to "SMS Backup+".
+next to "Whassup Backup".
 
 #### <a name="faq-request-token">When connecting, I get 'Could not obtain request token...'</a>
 
@@ -356,8 +341,8 @@ way).
 
 ### Installation from source
 
-    $ git clone git://github.com/jberkel/sms-backup-plus.git
-    $ cd sms-backup-plus
+    $ git clone git://github.com/davidfraser/whassup-backup.git
+    $ cd whassup-backup
     $ mvn install
     $ adb install target/smsbackup-plus-1.x.y-SNAPSHOT.apk
 
@@ -402,35 +387,35 @@ repository and send me a [pull request][].
 
 ##<a name="screenhots">Screenshots</a>
 
-![SMS Backup+ screenshot][smsbackupshot]
+![Whassup Backup screenshot][smsbackupshot]
 
 ##<a name="license">License</a>
 
 This application is released under the terms of the [Apache License, Version 2.0][].
 
 [original issue list]: http://code.google.com/p/android-sms/issues/list
-[github issues]: http://github.com/jberkel/sms-backup-plus/issues
+[github issues]: http://github.com/davidfraser/whassup-backup/issues
 [PlayQRCode]: http://chart.apis.google.com/chart?cht=qr&chs=100x100&chl=https://play.google.com/store/apps/details?id=com.zegoggles.smssync
 [f-droid]: https://f-droid.org/repository/browse/?fdid=com.zegoggles.smssync
 [PlayLink]: https://play.google.com/store/apps/details?id=com.zegoggles.smssync
 [Enabling IMAP in Gmail]: http://mail.google.com/support/bin/answer.py?hl=en&answer=77695
-[smsbackupshot]: https://raw.github.com/jberkel/sms-backup-plus/gh-pages/screenshots/smsbackup_holo_cropped.png
-[whatsapp-screenshot]: https://raw.github.com/davidfraser/sms-backup-plus/gh-pages/screenshots/whatsapp.png
+[smsbackupshot]: https://raw.github.com/davidfraser/whassup-backup/gh-pages/screenshots/smsbackup_holo_cropped.png
+[whatsapp-screenshot]: https://raw.github.com/davidfraser/whassup-backup/gh-pages/screenshots/whatsapp.png
 [droidbug]: http://www.mydigitallife.info/2010/09/27/motorola-droid-x-froyo-text-messaging-bug-rectified-via-sms-time-fix/
 [SMS Time fix]: http://www.appbrain.com/app/sms-time-fix/com.mattprecious.smsfix
-[converationviewoff]: https://raw.github.com/jberkel/sms-backup-plus/gh-pages/screenshots/soundcloud.com-mail-settings-jan-soundcloud.com.jpg
+[converationviewoff]: https://raw.github.com/davidfraser/whassup-backup/gh-pages/screenshots/soundcloud.com-mail-settings-jan-soundcloud.com.jpg
 [smstimefixzip]: https://supportforums.motorola.com/servlet/JiveServlet/download/269690-40815/sms-time-fix.zip
-[imapenableshot]: https://raw.github.com/jberkel/sms-backup-plus/gh-pages/screenshots/enable_imap.png
-[showimap]: https://raw.github.com/jberkel/sms-backup-plus/gh-pages/screenshots/show_imap.png
-[strings.xml]: https://github.com/jberkel/sms-backup-plus/raw/master/res/values/strings.xml
+[imapenableshot]: https://raw.github.com/davidfraser/whassup-backup/gh-pages/screenshots/enable_imap.png
+[showimap]: https://raw.github.com/davidfraser/whassup-backup/gh-pages/screenshots/show_imap.png
+[strings.xml]: https://github.com/davidfraser/whassup-backup/raw/master/res/values/strings.xml
 [Tasker]: http://tasker.dinglisch.net/
 [Tri-Crypt]: https://play.google.com/store/apps/details?id=com.tricrypt
 [WhatsApp-Workaround]: https://plus.google.com/+AbinashBishoyi/posts/QdPz13C525x
 [+AbinashBishoyi]: https://plus.google.com/+AbinashBishoyi
-[Icon]: https://raw.githubusercontent.com/jberkel/sms-backup-plus/master/res/drawable/ic_launcher.png
+[Icon]: https://raw.githubusercontent.com/davidfraser/whassup-backup/master/res/drawable/ic_launcher.png
 [Authorized Access to your Google Account]: https://security.google.com/settings/security/permissions
 [community]: https://plus.google.com/communities/113290889178902750997
-[releases]: https://github.com/jberkel/sms-backup-plus/releases
+[releases]: https://github.com/davidfraser/whassup-backup/releases
 [pull request]: https://help.github.com/articles/using-pull-requests/
 [Build Status]: http://travis-ci.org/jberkel/sms-backup-plus
 [Build Status PNG]: https://secure.travis-ci.org/jberkel/sms-backup-plus.png?branch=master
