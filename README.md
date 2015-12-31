@@ -113,7 +113,7 @@ Note that WhatsApp messages are backup only, there is no way to restore them.
 
 If you want to trigger backups from another app, enable `3rd party integration`
 in Advanced Settings and send the broadcast intent
-`com.zegoggles.smssync.BACKUP`. This will work even when Auto Backup is
+`org.frasergo.wasync.BACKUP`. This will work even when Auto Backup is
 disabled.
 
 ### Usage without Gmail (IMAP)
@@ -395,9 +395,9 @@ This application is released under the terms of the [Apache License, Version 2.0
 
 [original issue list]: http://code.google.com/p/android-sms/issues/list
 [github issues]: http://github.com/davidfraser/whassup-backup/issues
-[PlayQRCode]: http://chart.apis.google.com/chart?cht=qr&chs=100x100&chl=https://play.google.com/store/apps/details?id=com.zegoggles.smssync
-[f-droid]: https://f-droid.org/repository/browse/?fdid=com.zegoggles.smssync
-[PlayLink]: https://play.google.com/store/apps/details?id=com.zegoggles.smssync
+[PlayQRCode]: http://chart.apis.google.com/chart?cht=qr&chs=100x100&chl=https://play.google.com/store/apps/details?id=org.frasergo.wasync
+[f-droid]: https://f-droid.org/repository/browse/?fdid=org.frasergo.wasync
+[PlayLink]: https://play.google.com/store/apps/details?id=org.frasergo.wasync
 [Enabling IMAP in Gmail]: http://mail.google.com/support/bin/answer.py?hl=en&answer=77695
 [smsbackupshot]: https://raw.github.com/davidfraser/whassup-backup/gh-pages/screenshots/smsbackup_holo_cropped.png
 [whatsapp-screenshot]: https://raw.github.com/davidfraser/whassup-backup/gh-pages/screenshots/whatsapp.png

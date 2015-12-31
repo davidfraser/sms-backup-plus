@@ -331,7 +331,7 @@
             >
 
         <intent
-                android:targetClass="com.zegoggles.smssync.activity.donation.DonationActivity"
-                android:targetPackage="com.zegoggles.smssync"/>
+                android:targetClass="org.frasergo.wasync.activity.donation.DonationActivity"
+                android:targetPackage="org.frasergo.wasync"/>
     </Preference>
 </PreferenceScreen>

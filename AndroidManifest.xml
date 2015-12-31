@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zegoggles.smssync"
+    package="org.frasergo.wasync"
     android:versionName="1.5.9"
     android:versionCode="1553"
     android:description="@string/app_description"
@@ -41,11 +41,11 @@
     <application android:icon="@drawable/ic_launcher"
       android:label="@string/app_name"
       android:description="@string/app_description"
-      android:backupAgent=".preferences.PreferenceBackupAgent"
+      android:backupAgent="org.frasergo.wasync.preferences.PreferenceBackupAgent"
       android:allowBackup="true"
-      android:name="App">
+      android:name="org.frasergo.wasync.App">
 
-        <activity android:name=".activity.MainActivity" android:label="@string/app_name"
+        <activity android:name="org.frasergo.wasync.activity.MainActivity" android:label="@string/app_name"
                   android:theme="@style/Theme.SmsBackupPlus">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -58,33 +58,33 @@
                 <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="smssync" android:host="gmail"/>
+                <data android:scheme="wasync" android:host="gmail"/>
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.auth.OAuth2WebAuthActivity" android:theme="@style/Theme.WebAuth"/>
-        <activity android:name=".activity.auth.AccountManagerAuthActivity" android:theme="@style/Theme.SmsBackupPlus"/>
-        <activity android:name=".activity.donation.DonationActivity" android:theme="@style/Theme.Donation"/>
+        <activity android:name="org.frasergo.wasync.activity.auth.OAuth2WebAuthActivity" android:theme="@style/Theme.WebAuth"/>
+        <activity android:name="org.frasergo.wasync.activity.auth.AccountManagerAuthActivity" android:theme="@style/Theme.SmsBackupPlus"/>
+        <activity android:name="org.frasergo.wasync.activity.donation.DonationActivity" android:theme="@style/Theme.Donation"/>
 
-        <service android:name=".service.SmsBackupService" android:exported="false"/>
-        <service android:name=".service.SmsRestoreService" android:exported="false"/>
+        <service android:name="org.frasergo.wasync.service.SmsBackupService" android:exported="false"/>
+        <service android:name="org.frasergo.wasync.service.SmsRestoreService" android:exported="false"/>
 
-        <receiver android:name=".receiver.SmsBroadcastReceiver" android:enabled="true">
+        <receiver android:name="org.frasergo.wasync.receiver.SmsBroadcastReceiver" android:enabled="true">
           <intent-filter>
             <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
             <action android:name="android.intent.action.BOOT_COMPLETED"/>
           </intent-filter>
         </receiver>
 
-        <receiver android:name=".receiver.BackupBroadcastReceiver" android:enabled="true">
+        <receiver android:name="org.frasergo.wasync.receiver.BackupBroadcastReceiver" android:enabled="true">
           <intent-filter>
-            <action android:name="com.zegoggles.smssync.BACKUP"/>
+            <action android:name="org.frasergo.wasync.BACKUP"/>
             <category android:name="android.intent.category.DEFAULT"/>
           </intent-filter>
         </receiver>
 
         <!-- BroadcastReceiver that listens for incoming SMS messages -->
-        <receiver android:name=".compat.SmsReceiver"
+        <receiver android:name="org.frasergo.wasync.compat.SmsReceiver"
                 android:permission="android.permission.BROADCAST_SMS">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_DELIVER" />
@@ -92,7 +92,7 @@
         </receiver>
 
         <!-- BroadcastReceiver that listens for incoming MMS messages -->
-        <receiver android:name=".compat.MmsReceiver"
+        <receiver android:name="org.frasergo.wasync.compat.MmsReceiver"
             android:permission="android.permission.BROADCAST_WAP_PUSH">
             <intent-filter>
                 <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
@@ -101,7 +101,7 @@
         </receiver>
 
         <!-- Activity that allows the user to send new SMS/MMS messages -->
-        <activity android:name=".compat.ComposeSmsActivity" >
+        <activity android:name="org.frasergo.wasync.compat.ComposeSmsActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <action android:name="android.intent.action.SENDTO" />
@@ -115,7 +115,7 @@
         </activity>
 
         <!-- Service that delivers messages from the phone "quick response" -->
-        <service android:name=".compat.HeadlessSmsSendService"
+        <service android:name="org.frasergo.wasync.compat.HeadlessSmsSendService"
                  android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE"
                  android:exported="true" >
             <intent-filter>
