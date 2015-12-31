@@ -393,6 +393,7 @@ repository and send me a [pull request][].
 
 This application is released under the terms of the [Apache License, Version 2.0][].
 
+[apk]: https://github.com/jberkel/sms-backup-plus/releases/download/1.5.9/smsbackup-plus-1.5.9-market.apk
 [original issue list]: http://code.google.com/p/android-sms/issues/list
 [github issues]: http://github.com/davidfraser/whassup-backup/issues
 [PlayQRCode]: http://chart.apis.google.com/chart?cht=qr&chs=100x100&chl=https://play.google.com/store/apps/details?id=org.frasergo.wasync
