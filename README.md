@@ -344,7 +344,7 @@ way).
     $ git clone git://github.com/davidfraser/whassup-backup.git
     $ cd whassup-backup
     $ mvn install
-    $ adb install target/smsbackup-plus-1.x.y-SNAPSHOT.apk
+    $ adb install target/whassup-backup-1.x.y-SNAPSHOT.apk
 
 I've imported some relevant issues from the [original issue list][] to [github issues][].
 
