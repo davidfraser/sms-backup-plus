@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
   <string name="app_description">Përdor Gmail për të krijuar një kopje rezervë të SMS-ve tuaja. Ky është një version i përmirësuar i "SMS Backup" nga Christoph Studer i cili mbështet rikthimin e SMS-ve prapa në telefon. Ky është i prapapërpuethshëm plotësisht me SMS Backup.</string>
   <string name="ui_sync_button_label_idle">Kopje Rezervë</string>
   <string name="ui_sync_button_label_canceling">Duke Ndaluar</string>
@@ -30,10 +30,10 @@
   </plurals>
   <string name="status_restore_canceled_details">%1$d/%2$d shënime u rikthyen me sukses.</string>
   <string name="status_unknown_error">Gabim</string>
-  <string name="notification_general_error">Gabim SMSBackup+</string>
+  <string name="notification_general_error">Gabim WassupBackup</string>
   <string name="status_unknown_error_details">Gabim gjatë krijimit të kopjes rezervë/rikthimit:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Gabim në hyrje</string>
-  <string name="notification_auth_failure">Gabim në hyrje SMSBackup+</string>
+  <string name="notification_auth_failure">Gabim në hyrje WassupBackup</string>
   <string name="status_auth_failure_details_xoauth">Gabim autorizimi XOAuth. Ju lutemi siguroheni që keni aktivizuar IMAP në aranzhimin e llogarisë tuaj të Gmail.</string>
   <string name="status_auth_failure_details_plain">Gabim autorizimi IMAP.
   Sigurohuni që hyrja dhe fjalëkalimi të jenë të vendosura në rregull.</string>
@@ -134,7 +134,7 @@
   <string name="ui_dialog_disconnect_msg">Jeni të sigurtë? Ju do të keni nevojë të riautorizoni llogarinë tuaj mbas i keni shkëputur si dhe gjendja e sinkronizimit lokal do të rivendoset.</string>
   <string name="ui_dialog_upgrade_title">Informacion përditësimi</string>
   <string name="ui_dialog_upgrade_msg">
-   SMS Backup+ është i prapapërpuethshëm plotësisht me SMS Backup. Megjithatë sigurohuni që \"krijimi i kopjes rezervë automatike\" është i aktivizuar vetëm në njërin program, përndryshe do të hasni kopje identike. Gjithashtu ju duhet të përzgjidhni \"Tejkalo\" mesazhet për sinkronizimin tuaj të parë nëse mesazhet në telefon janë tashmë të ruajtura rezervë që më parë.\</string>
+   Wassup Backup është i prapapërpuethshëm plotësisht me SMS Backup. Megjithatë sigurohuni që \"krijimi i kopjes rezervë automatike\" është i aktivizuar vetëm në njërin program, përndryshe do të hasni kopje identike. Gjithashtu ju duhet të përzgjidhni \"Tejkalo\" mesazhet për sinkronizimin tuaj të parë nëse mesazhet në telefon janë tashmë të ruajtura rezervë që më parë.\</string>
   <string name="ui_dialog_brokendroidx_title">Mangësi e SMS të DROID X</string>
   <string name="ui_dialog_brokendroidx_msg">Ka një mangësi tek Droid X e cila
   nuk e lejon këtë program të krijoi kopje rezervë të mesazheve hyrëse. Shikoni FAQ
@@ -266,7 +266,7 @@
   <string name="ui_dialog_sms_default_package_change_title">Njoftim përmirësimi</string>
   <string name="ui_dialog_sms_default_package_change_msg">
     Në rast të rikthmit të mesazheve tuaja në Android KitKat dhe Lollipop ju nevojitet
-    të vendosni SMS Backup+ si programin tuaj fillestar të SMS përgjatë proçesit të rikthimit. Ju do të
+    të vendosni Wassup Backup si programin tuaj fillestar të SMS përgjatë proçesit të rikthimit. Ju do të
     pyeteni të ndryshoni përsëri aranzhimet si në fillim mbas rikthimit.
   </string>
 </resources>

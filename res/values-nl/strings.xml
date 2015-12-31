@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
      Gebruik Gmail om uw sms\'en te back-uppen. Dit is een verbeterde versie van de applicatie \"SMS Backup\" door Christoph Studer, die het terugzetten van sms\'en op de telefoon ondersteunt. Het is volledig compatibel met SMS Backup.
@@ -43,11 +43,11 @@
   <string name="status_restore_canceled_details">%1$d/%2$d items met succes teruggezet.</string>
 
   <string name="status_unknown_error">Fout</string>
-  <string name="notification_general_error">SMSBackup+-fout</string>
+  <string name="notification_general_error">WassupBackup-fout</string>
 
   <string name="status_unknown_error_details">Fout tijdens back-uppen/terugzetten:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Aanmeldingsfout</string>
-  <string name="notification_auth_failure">SMSBackup+-aanmeldingsfout</string>
+  <string name="notification_auth_failure">WassupBackup-aanmeldingsfout</string>
 
   <string name="status_auth_failure_details_xoauth">XOAuth-fout. Verzeker uzelf er a.u.b. van dat u IMAP hebt ingeschakeld in de Gmail-instellingen van uw account.</string>
   <string name="status_auth_failure_details_plain">IMAP-autorisatiefout.
@@ -177,7 +177,7 @@
 
   <string name="ui_dialog_upgrade_title">Upgrade-informatie</string>
   <string name="ui_dialog_upgrade_msg">
-   SMS Backup+ is volledig compatibel SMS Backup. Zorg er wel voor dat \"Automatische back-up\" maar in één app aan staat, anders krijgt u dubbele berichten. Ook moet u berichten \"overslaan\" als u voor het eerst synchroniseert en uw berichten op uw telefoon al geback-upt zijn.
+   Wassup Backup is volledig compatibel SMS Backup. Zorg er wel voor dat \"Automatische back-up\" maar in één app aan staat, anders krijgt u dubbele berichten. Ook moet u berichten \"overslaan\" als u voor het eerst synchroniseert en uw berichten op uw telefoon al geback-upt zijn.
   </string>
 
   <string name="ui_dialog_brokendroidx_title">DROID X-sms-bug</string>

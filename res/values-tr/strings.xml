@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
      Gmail vasıtasıyla SMS\'lerinizi yedekleyin. Bu program Christoph Studer tarafından yazılan "SMS Backup"
@@ -45,11 +45,11 @@
   <string name="status_restore_canceled_details">%1$d/%2$d öğe başarıyla geri yüklendi.</string>
 
   <string name="status_unknown_error">Hata</string>
-  <string name="notification_general_error">SMSBackup+ hata</string>
+  <string name="notification_general_error">WassupBackup hata</string>
 
   <string name="status_unknown_error_details">Yedekleme/Geri yükleme işlemi sırasında meydana gelen hata:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Giriş hatası</string>
-  <string name="notification_auth_failure">SMSBackup+ giriş hatası</string>
+  <string name="notification_auth_failure">WassupBackup giriş hatası</string>
 
   <string name="status_auth_failure_details_xoauth">XOAuth yetki hatası. Lütfen Gmail hesap ayarlarındaki IMAP seçeneğinin açık olduğundan emin olun.</string>
   <string name="status_auth_failure_details_plain">IMAP yetki hatası.
@@ -149,7 +149,7 @@
 
   <string name="ui_dialog_upgrade_title">Güncelleme bilgisi</string>
   <string name="ui_dialog_upgrade_msg">
-   SMS Backup+, SMS Backup ile tamamen uyumludur. Sadece \"Otomatik yedekleme\" seçeneğinin akif olduğundan emin olun, aksi takdirde mükerrer mesajlar oluşabilir. Ayrıca eğer telefondaki mesajlarınızı daha önce zaten yedeklemişseniz ilk senkronizasyon işlemi esnasında \"Atla\" seçeneğini seçin.
+   Wassup Backup, SMS Backup ile tamamen uyumludur. Sadece \"Otomatik yedekleme\" seçeneğinin akif olduğundan emin olun, aksi takdirde mükerrer mesajlar oluşabilir. Ayrıca eğer telefondaki mesajlarınızı daha önce zaten yedeklemişseniz ilk senkronizasyon işlemi esnasında \"Atla\" seçeneğini seçin.
   </string>
 
   <string name="ui_dialog_brokendroidx_title">DROID X SMS Hatası</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
      Utilice Gmail para hacer una copia de seguridad de sus SMS. Es una version mejorada de la applicacion de la aplicacion "SMS Backup" por
@@ -45,11 +45,11 @@
   <string name="status_restore_canceled_details">%1$d/%2$d elementos restaurados con éxito.</string>
 
   <string name="status_unknown_error">Error</string>
-  <string name="notification_general_error">Error de SMSBackup+</string>
+  <string name="notification_general_error">Error de WassupBackup</string>
 
   <string name="status_unknown_error_details">Error durante la copia de seguridad/restauración:\n</string>
   <string name="status_auth_failure">Error al iniciar la sesión</string>
-  <string name="notification_auth_failure">Error de inicio de sesión en SMSBackup+</string>
+  <string name="notification_auth_failure">Error de inicio de sesión en WassupBackup</string>
 
 
   <string name="status_auth_failure_details_xoauth">Por favor, asegúrese de que ha habilitado IMAP en la configuración de su cuenta de Gmail.</string>
@@ -158,7 +158,7 @@
   <string name="ui_dialog_disconnect_msg">¿Está seguro? Necesitará autorizar de nuevo después de desconectar esta cuenta</string>
 
   <string name="ui_dialog_upgrade_title">Información de actualización</string>
-  <string name="ui_dialog_upgrade_msg">SMS Backup+ es completamente compatible con SMS Backup. Sin embargo asegúrese de que \"Copia de seguridad automática\" está sólo habilitada en una aplicación, de lo contrario podría obtener duplicados. También debe seleccionar \"Saltar\" mensajes para su primera sincronización, si ya ha hecho previamente copia de seguridad de los mensajes en el teléfono.</string>
+  <string name="ui_dialog_upgrade_msg">Wassup Backup es completamente compatible con SMS Backup. Sin embargo asegúrese de que \"Copia de seguridad automática\" está sólo habilitada en una aplicación, de lo contrario podría obtener duplicados. También debe seleccionar \"Saltar\" mensajes para su primera sincronización, si ya ha hecho previamente copia de seguridad de los mensajes en el teléfono.</string>
 
 
 

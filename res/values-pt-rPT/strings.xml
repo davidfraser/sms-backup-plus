@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
   <string name="app_description">Faça cópias de segurança(Backup) das suas SMS, MMS e Registos de chamadadas no Gmail, de forma automática ou manual. Esta é uma versão avançada da aplicação "SMS Backup" por Christoph Studer, a qual suporta o Restauro(Restore) das SMS/MMS copiadas no Gmail para o telefone. É totalmente compatível com versões anteriores de "SMS Backup".</string>
   <string name="ui_sync_button_label_idle">Cópia de segurança</string>
   <string name="ui_sync_button_label_canceling">Interrompendo</string>
@@ -30,10 +30,10 @@
   </plurals>
   <string name="status_restore_canceled_details">%1$d/%2$d itens restaurados corretamente.</string>
   <string name="status_unknown_error">Erro</string>
-  <string name="notification_general_error">Erro em SMSBackup+</string>
+  <string name="notification_general_error">Erro em WassupBackup</string>
   <string name="status_unknown_error_details">Erro na cópia/restauro:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Erro na autenticação</string>
-  <string name="notification_auth_failure">Erro no início de sessão do SMSBackup+</string>
+  <string name="notification_auth_failure">Erro no início de sessão do WassupBackup</string>
   <string name="status_auth_failure_details_xoauth">XOAuth erro na autorização de acesso. Por favor confirme que ativou o IMAP nas definições da sua conta GMAIL.</string>
   <string name="status_auth_failure_details_plain">IMAP erro na autenticação. Verifique se o nome de utilizador e palavra-passe são os correctos.</string>
   <string name="status_calc_details">A calcular\u2026</string>
@@ -121,7 +121,7 @@
   <string name="ui_dialog_connect_token_error">Não foi possível obter autorização de acesso(token request error). Confirme que tem uma ligação de rede activa e que as horas e o fuso horário estão corretos.</string>
   <string name="ui_dialog_disconnect_msg">Tem a certeza? Terá de voltar a autorizar o acesso à sua conta e a configuração da sincronização local será reposta(reset).</string>
   <string name="ui_dialog_upgrade_title">Atualizações</string>
-  <string name="ui_dialog_upgrade_msg">SMS Backup+ é completamente compatível com SMS Backup. No entanto, verifique que apenas tem \"Cópia Automática\" ativada numa das aplicação, ou poderá ficar com SMS duplicadas. Também deverá selecionar \"Ignorar\" mensagens guardadas na sincronização inicial se as SMS no aparelho já tenham uma cópia de segurança efetuada anteriormente. </string>
+  <string name="ui_dialog_upgrade_msg">Wassup Backup é completamente compatível com SMS Backup. No entanto, verifique que apenas tem \"Cópia Automática\" ativada numa das aplicação, ou poderá ficar com SMS duplicadas. Também deverá selecionar \"Ignorar\" mensagens guardadas na sincronização inicial se as SMS no aparelho já tenham uma cópia de segurança efetuada anteriormente. </string>
   <string name="ui_dialog_brokendroidx_title">DROID X SMS: Falha</string>
   <string name="ui_dialog_brokendroidx_msg">Existe uma falha no Droid X que impede esta aplicação de criar cópias de segurança de novas mensagens. Consulte a FAQ no sítio da aplicação para mais informações.</string>
   <string name="ui_sync">Copiar</string>

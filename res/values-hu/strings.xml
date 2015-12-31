@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
      Készítsen biztonsági mentést az SMS-eidről a Gmail fiókjába.
@@ -47,11 +47,11 @@
   <string name="status_restore_canceled_details">%1$d/%2$d elem visszaállítása sikeres volt.</string>
 
   <string name="status_unknown_error">Hiba</string>
-  <string name="notification_general_error">SMS Backup+ hiba</string>
+  <string name="notification_general_error">Wassup Backup hiba</string>
 
   <string name="status_unknown_error_details">Hiba történt a mentés/visszaállítás során:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Bejelentkezési hiba</string>
-  <string name="notification_auth_failure">SMS Backup+ bejelentkezési hiba</string>
+  <string name="notification_auth_failure">Wassup Backup bejelentkezési hiba</string>
 
   <string name="status_auth_failure_details_xoauth">XOAuth bejelentkezési hiba. Győződjön meg róla, hogy engedélyezte az IMAP-alapú hozzáférést a Gmail fiókja beállításaiban.</string>
   <string name="status_auth_failure_details_plain">IMAP bejelentkezési hiba. Győződjön meg róla, hogy a bejelentkezési nevet és jelszót helyesen adta meg.</string>
@@ -183,7 +183,7 @@
   <string name="ui_dialog_disconnect_msg">Biztos benne? A kapcsolat bontása után újra jóvá kell hagynia hozzáférést a fiókjával és a helyi biztonsági mentés állapota is alaphelyzetbe kerül.</string>
 
   <string name="ui_dialog_upgrade_title">Frissítési információk</string>
-  <string name="ui_dialog_upgrade_msg">Az SMS Backup+ visszafelé kompatibilis az SMS Backuppal. Mindazonáltal bizonyosodjon meg róla, hogy az \"Automatikus mentés\" csak az egyik alkalmazásban aktív, különben előfordulhatnak ismétlődések a mentett üzenetek között. Ezen kívül válassza a \"Kihagyás\" opciót az első mentéskor, ha már korábban készült biztonsági mentés az üzenetekről.</string>
+  <string name="ui_dialog_upgrade_msg">Az Wassup Backup visszafelé kompatibilis az SMS Backuppal. Mindazonáltal bizonyosodjon meg róla, hogy az \"Automatikus mentés\" csak az egyik alkalmazásban aktív, különben előfordulhatnak ismétlődések a mentett üzenetek között. Ezen kívül válassza a \"Kihagyás\" opciót az első mentéskor, ha már korábban készült biztonsági mentés az üzenetekről.</string>
 
   <string name="ui_dialog_brokendroidx_title">DROID X SMS hiba</string>
   <string name="ui_dialog_brokendroidx_msg">Van egy hiba a Droid X készülékekben, amely megakadályozza, hogy az alkalmazás hozzáférjen a bejövő üzenetekhez. További információkért keresse fel a gyakran ismételt kérdéseket a weboldalon.</string>
@@ -348,7 +348,7 @@
 
   <string name="ui_dialog_sms_default_package_change_title">Frissítési figyelmeztetés</string>
   <string name="ui_dialog_sms_default_package_change_msg">
-    Az Android KitKat és Lollipop verzióitól kezdve az SMS Backup+ beállítja
+    Az Android KitKat és Lollipop verzióitól kezdve az Wassup Backup beállítja
     magát alapértelmezett SMS alkalmazássá visszaállítás közben. A művelet
     befejezése után vissza kell állítani az eredeti beállítást.
   </string>

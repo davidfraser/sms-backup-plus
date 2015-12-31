@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
      Use Gmail to back up your SMS. This is an improved version of the application "SMS Backup" by
@@ -45,11 +45,11 @@
   <string name="status_restore_canceled_details">%1$d/%2$d items successfully restored.</string>
 
   <string name="status_unknown_error">Error</string>
-  <string name="notification_general_error">SMSBackup+ error</string>
+  <string name="notification_general_error">WassupBackup error</string>
 
   <string name="status_unknown_error_details">Error during backup/restore:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Login error</string>
-  <string name="notification_auth_failure">SMSBackup+ login error</string>
+  <string name="notification_auth_failure">WassupBackup login error</string>
 
   <string name="status_auth_failure_details_xoauth">XOAuth authorization error. Please make sure you enabled IMAP in your Gmail account settings.</string>
   <string name="status_auth_failure_details_plain">IMAP authorization error.
@@ -185,7 +185,7 @@
 
   <string name="ui_dialog_upgrade_title">Upgrade information</string>
   <string name="ui_dialog_upgrade_msg">
-   SMS Backup+ is fully backwards compatible with SMS Backup. However make sure that \"Auto backup\" is only enabled in one app, otherwise you might get duplicates. Also you should select \"Skip\" messages for your first sync if the messages on the phone have already been backed up previously.
+   Wassup Backup is fully backwards compatible with SMS Backup. However make sure that \"Auto backup\" is only enabled in one app, otherwise you might get duplicates. Also you should select \"Skip\" messages for your first sync if the messages on the phone have already been backed up previously.
   </string>
 
   <string name="ui_dialog_brokendroidx_title">DROID X SMS Bug</string>
@@ -357,7 +357,7 @@
   <string name="ui_dialog_sms_default_package_change_title">Upgrade notice</string>
   <string name="ui_dialog_sms_default_package_change_msg">
     In order to restore your messages on Android KitKat and Lollipop you need
-    to set SMS Backup+ as your SMS app during the restore operation. You will
+    to set Wassup Backup as your SMS app during the restore operation. You will
     get asked to change it back to the original setting after restoring.
   </string>
 </resources>

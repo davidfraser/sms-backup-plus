@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string name="donate">Darowizna</string>
-    <string name="app_name">SMS Backup+Restore</string>
+    <string name="app_name">Wassup BackupRestore</string>
     <string name="app_description">Użyj Gmail do przechowywania kopii zapasowej swoich SMSów. Ta wersja programu SMS Backup została stworzona przez Christoph\'a Studer\'a i obsługuje przywracanie wiadomości.</string>
     <string name="ui_sync_button_label_idle">Kopia zapasowa</string>
     <string name="ui_sync_button_label_canceling">Zatrzymywanie</string>
@@ -23,10 +23,10 @@
     <string name="status_backup_done_details_noitems">Nie było żadnych elementów wymagających kopii zapasowej.</string>
     <string name="status_restore_canceled_details">%1$d/%2$d elementów poprawnie przywróconych.</string>
     <string name="status_unknown_error">Błąd</string>
-    <string name="notification_general_error">SMSBackup+ błąd</string>
+    <string name="notification_general_error">WassupBackup błąd</string>
     <string name="status_unknown_error_details">Błąd podczas wykonywania kopii zapasowej/przywracania:\n %1$s</string>
     <string name="status_auth_failure">Błąd podczas logowania</string>
-    <string name="notification_auth_failure">SMSBackup+ błąd logowania</string>
+    <string name="notification_auth_failure">WassupBackup błąd logowania</string>
     <string name="status_auth_failure_details_xoauth">Upewnij się, że IMAP jest włączony w ustawienia konta Gmail.</string>
     <string name="status_auth_failure_details_plain">Błąd autoryzacji IMAP. Upewnij się, że nazwa użytkownika i hasło zostały poprawnie wprowadzone.</string>
     <string name="status_calc_details">Obliczanie…</string>
@@ -115,7 +115,7 @@
     <string name="ui_dialog_connect_token_error">Nie można uzyskać żetonu żądania od Google. Upewnij się, że telefon jest podłączony do Internetu.</string>
     <string name="ui_dialog_disconnect_msg">Na pewno? Trzeba będzie powtórzyć uwierzytelnianie po odłączenie tego konta</string>
     <string name="ui_dialog_upgrade_title">Informacje o aktualizacji</string>
-    <string name="ui_dialog_upgrade_msg">SMS Backup+ jest całkowicie zgodny wstecz z SMS Backup. Należy jednak upewnić się, że \"Automatyczne wykonywanie kopii zapasowej\" jest włączone tylko w jednym programie, w przeciwnym razie powstaną duplikaty wiadomości. Należy również wybrać \"Pomiń\" przy pierwszej synchronizacji, jeśli wcześniej została już utworzona kopia zapasowa.</string>
+    <string name="ui_dialog_upgrade_msg">Wassup Backup jest całkowicie zgodny wstecz z SMS Backup. Należy jednak upewnić się, że \"Automatyczne wykonywanie kopii zapasowej\" jest włączone tylko w jednym programie, w przeciwnym razie powstaną duplikaty wiadomości. Należy również wybrać \"Pomiń\" przy pierwszej synchronizacji, jeśli wcześniej została już utworzona kopia zapasowa.</string>
     <string name="ui_dialog_brokendroidx_title">Błąd SMS w DROID X</string>
     <string name="ui_dialog_brokendroidx_msg">W Droid X jest błąd który uniemożliwia aplikacji SMS Backup + tworzenie kopii zapasowej dla wiadomości przychodzących. Więcej informacji znajdziesz w FAQ na naszej stronie internetowej.</string>
     <string name="ui_sync">Kopia zapasowa</string>

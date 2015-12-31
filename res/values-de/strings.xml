@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
 	 Benutzen Sie Gmail um Ihre SMS zu sichern. Dies ist eine verbesserte Version der "SMS Backup"
@@ -45,11 +45,11 @@
   <string name="status_restore_canceled_details">%1$d/%2$d Einträge erfolgreich wiederhergestellt.</string>
 
   <string name="status_unknown_error">Fehler</string>
-  <string name="notification_general_error">SMSBackup+ Fehler</string>
+  <string name="notification_general_error">WassupBackup Fehler</string>
 
   <string name="status_unknown_error_details">Fehler während der Sicherung/Wiederherstellung:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Anmeldungsfehler</string>
-  <string name="notification_auth_failure">SMSBackup+ Anmeldungsfehler</string>
+  <string name="notification_auth_failure">WassupBackup Anmeldungsfehler</string>
 
   <string name="status_auth_failure_details_xoauth">XOAuth Authorisierungsfehler. Bitte stellen Sie sicher, dass Sie IMAP in Ihren Gmail Kontoeinstellungen aktiviert haben.</string>
   <string name="status_auth_failure_details_plain">IMAP Authorisierungsfehler. Bitte stellen Sie sicher, dass Sie Ihre Anmeldungsdaten korrekt eingegeben haben.</string>
@@ -173,7 +173,7 @@
 
   <string name="ui_dialog_upgrade_title">Upgrade Information</string>
   <string name="ui_dialog_upgrade_msg">
-   SMS Backup+ ist vollständig abwärtskompatibel mit SMS Backup. Die \"Automatische Sicherung\" sollte allerdings nur in einer App aktiviert sein, andernfalls könnten Duplikate enstehen. Außerdem sollten Sie \"Überspringen\" für Ihre erste Sicherung wählen falls Ihre Daten vormals schon gesichert wurden.
+   Wassup Backup ist vollständig abwärtskompatibel mit SMS Backup. Die \"Automatische Sicherung\" sollte allerdings nur in einer App aktiviert sein, andernfalls könnten Duplikate enstehen. Außerdem sollten Sie \"Überspringen\" für Ihre erste Sicherung wählen falls Ihre Daten vormals schon gesichert wurden.
   </string>
 
   <string name="ui_dialog_brokendroidx_title">DROID X SMS Bug</string>

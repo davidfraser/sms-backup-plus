@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
      使用 Gmail 來備份您的簡訊。這款程式支援簡訊還原功能，
@@ -45,11 +45,11 @@
   <string name="status_restore_canceled_details">成功還原了 %1$d/%2$d 個項目。</string>
 
   <string name="status_unknown_error">錯誤</string>
-  <string name="notification_general_error">SMSBackup+ 出錯</string>
+  <string name="notification_general_error">WassupBackup 出錯</string>
 
   <string name="status_unknown_error_details">備份/還原時出錯：\n</string>
   <string name="status_auth_failure">登入出錯</string>
-  <string name="notification_auth_failure">SMS Backup+ 登入出錯</string>
+  <string name="notification_auth_failure">Wassup Backup 登入出錯</string>
 
   <string name="status_auth_failure_details_xoauth">XOAuth 驗證出錯。請確認您已經在 Gmail 賬戶設定中開啟 IMAP。</string>
   <string name="status_auth_failure_details_plain">IMAP 驗證出錯。
@@ -172,7 +172,7 @@
 
   <string name="ui_dialog_upgrade_title">升級訊息</string>
   <string name="ui_dialog_upgrade_msg">
-   SMS Backup+ 與 SMS Backup 程式完全向下兼容。但是請確定您只在其中一款程式中開啟“自動備份”，否則將會出現重複備份。如果您已經對設備中的簡訊進行過備份，首次備份時應該選取“跳過”訊息。
+   Wassup Backup 與 SMS Backup 程式完全向下兼容。但是請確定您只在其中一款程式中開啟“自動備份”，否則將會出現重複備份。如果您已經對設備中的簡訊進行過備份，首次備份時應該選取“跳過”訊息。
   </string>
 
   <string name="ui_dialog_brokendroidx_title">DROID X 簡訊缺陷</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
      Sauvegardez vos SMS dans votre compte Gmail. Ceci est une version ameliorée de l\'application "SMS Backup" de
@@ -45,11 +45,11 @@
   <string name="status_restore_canceled_details">%1$d/%2$d éléments restaurés avec succès.</string>
 
   <string name="status_unknown_error">Erreur</string>
-  <string name="notification_general_error">Erreur SMSBackup+</string>
+  <string name="notification_general_error">Erreur WassupBackup</string>
 
   <string name="status_unknown_error_details">Erreur pendant la sauvegarde/restauration :\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Erreur d\'identification</string>
-  <string name="notification_auth_failure">Erreur d\'identification SMS Backup+</string>
+  <string name="notification_auth_failure">Erreur d\'identification Wassup Backup</string>
 
   <string name="status_auth_failure_details_xoauth">Erreur d\'authentification XOAuth. Veuillez vérifier que vous avez bien activé le protocol IMAP dans les réglages de votre compte Gmail.</string>
   <string name="status_auth_failure_details_plain">Erreur d\'authentification IMAP.
@@ -183,7 +183,7 @@
 
   <string name="ui_dialog_upgrade_title">Informations de mises à jour</string>
   <string name="ui_dialog_upgrade_msg">
-   SMS Backup+ est entièrement rétro-compatible avec SMS Backup. Veuillez cependant vérifier que l\'option \"Sauvegarde automatique\" n\'est activée que dans une des deux applications, sinon vous aurez des sauvegardes en double. Il est également conseillé de séléctionner \"Ignorer\" les messages pour votre première sauvgarde, si vous les avez déjà sauvegardés.
+   Wassup Backup est entièrement rétro-compatible avec SMS Backup. Veuillez cependant vérifier que l\'option \"Sauvegarde automatique\" n\'est activée que dans une des deux applications, sinon vous aurez des sauvegardes en double. Il est également conseillé de séléctionner \"Ignorer\" les messages pour votre première sauvgarde, si vous les avez déjà sauvegardés.
   </string>
 
   <string name="ui_dialog_brokendroidx_title">Bug SMS DROID X</string>
@@ -354,7 +354,7 @@
   <string name="ui_dialog_sms_default_package_change_title">Notification de mise-à-jour</string>
   <string name="ui_dialog_sms_default_package_change_msg">
     Afin de restaurer vos messages sur Android KitKat et Lollipop, vous devez
-    choisir SMS Backup+ comme application par défaut pour les SMS pendant l\'opération de restauration.
+    choisir Wassup Backup comme application par défaut pour les SMS pendant l\'opération de restauration.
     Il vous sera ensuite demandé de redéfinir l\'application originelle après la restauration.
   </string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-<string name="app_name">SMS Backup+</string>
+<string name="app_name">Wassup Backup</string>
 <string name="app_description">Використовуйте пошту Gmail для резервного копіювання SMS. Це покращена версія програми \"SMS Backup\" Крістофа Студера, яка підтримує відновлення SMS у телефоні. Вона повністю сумісна з \"SMS Backup\".</string>
 <string name="ui_sync_button_label_idle">Створити</string>
 <string name="ui_sync_button_label_canceling">Зупинка</string>
@@ -32,11 +32,11 @@
 </plurals>
 <string name="status_restore_canceled_details">Вдало відновлено %1$d/%2$d елементів.</string>
 <string name="status_unknown_error">Помилка</string>
-<string name="notification_general_error">Помилка SMSBackup+</string>
+<string name="notification_general_error">Помилка WassupBackup</string>
 <string name="status_unknown_error_details">Помилка під час збереження/відновлення
 <xliff:g id="error_description">%1$s</xliff:g></string>
 <string name="status_auth_failure">Помилка входу</string>
-<string name="notification_auth_failure">Помилка входу SMSBackup+</string>
+<string name="notification_auth_failure">Помилка входу WassupBackup</string>
 <string name="status_auth_failure_details_xoauth">Помилка авторизації XOAuth. Будь ласка, переконайтеся, що ви вмикнули IMAP в налаштуваннях Gmail.</string>
 <string name="status_auth_failure_details_plain">Помилка авторизації IMAP. Переконайтеся, що логін і пароль введені правильно.</string>
 <string name="status_calc_details">Обробка\u2026</string>
@@ -135,7 +135,7 @@
 <string name="ui_dialog_disconnect_msg">Ви впевнені? Після відключення потрібно буде повторно надати доступ до вашої пошти. Стан синхронізації буде скинуто.</string>
 <string name="ui_dialog_upgrade_title">Інформація про сумісність</string>
 <string name="ui_dialog_upgrade_msg">
-   SMS Backup+ є повністю сумісною SMS Backup. Однак переконайтеся, що \"Автоматичне резервне копіювання\" включено лише в одному застосунку, в іншому випадку ви можете отримати дублікати. Також ви маєте обрати \"Проминути\" в повідомлені для першої синхронізації, якщо повідомлення на телефоні вже були збережені раніше.</string>
+   Wassup Backup є повністю сумісною SMS Backup. Однак переконайтеся, що \"Автоматичне резервне копіювання\" включено лише в одному застосунку, в іншому випадку ви можете отримати дублікати. Також ви маєте обрати \"Проминути\" в повідомлені для першої синхронізації, якщо повідомлення на телефоні вже були збережені раніше.</string>
 <string name="ui_dialog_brokendroidx_title">Помилки на DROID X</string>
 <string name="ui_dialog_brokendroidx_msg">Існує помилка збереження вхідних повідомлень в Droid X. Будь ласка, перегляньте довідку на веб-сайті для детальної інформації.</string>
 <string name="ui_sync">Резервне копіювання</string>

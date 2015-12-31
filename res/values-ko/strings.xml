@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
 	Gmail을 사용하여 당신의 SMS를 백업하세요. 이 앱은 휴대전화로 SMS 복원을 지원하는 "SMS Backup"의 향상된 버전입니다. 이 앱은 SMS Backup 과 완벽하게 호환됩니다.
@@ -43,11 +43,11 @@
   <string name="status_restore_canceled_details">%1$d/%2$d 항목이 성공적으로 복원됨.</string>
 
   <string name="status_unknown_error">오류</string>
-  <string name="notification_general_error">SMSBackup+ 오류</string>
+  <string name="notification_general_error">WassupBackup 오류</string>
 
   <string name="status_unknown_error_details">백업/복원 중 다음과 같은 오류가 발생:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">로그인 오류</string>
-  <string name="notification_auth_failure">SMSBackup+ 로그인 오류</string>
+  <string name="notification_auth_failure">WassupBackup 로그인 오류</string>
 
   <string name="status_auth_failure_details_xoauth">XOAuth 인증 오류. Gmail 계정 설정에서 IMAP를 활성화 하였는지 확인하십시오.</string>
   <string name="status_auth_failure_details_plain">IMAP 인증 오류.

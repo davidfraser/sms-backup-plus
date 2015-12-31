@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
       Brug Gmail til at lave backup af dine SMS\'er. Dette er en forbedret version af applicationen "SMS Backup" 
@@ -44,11 +44,11 @@
   <string name="status_restore_canceled_details">%1$d/%2$d emner genetableret.</string>
 
   <string name="status_unknown_error">Fejl</string>
-  <string name="notification_general_error">SMSBackup+ fejl</string>
+  <string name="notification_general_error">WassupBackup fejl</string>
 
   <string name="status_unknown_error_details">Fejl under backup/genetablering:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Login fejl</string>
-  <string name="notification_auth_failure">SMSBackup+ login fejl</string>
+  <string name="notification_auth_failure">WassupBackup login fejl</string>
   <string name="status_auth_failure_details_xoauth">XOAuth autorisations fejl. Kontroller at IMAP er aktiveret under dine Gmail konto indstillinger.</string>
   <string name="status_auth_failure_details_plain">IMAP autorisations fejl.
   Kontroller at login og password er korrekt.</string>
@@ -177,7 +177,7 @@
 
   <string name="ui_dialog_upgrade_title">Opgraderings information</string>
   <string name="ui_dialog_upgrade_msg">
-      SMS Backup+ er fuldt kompatibelt med SMS Backup. Men du skal sikre dig at \"Auto backup\" kun er slået til i en af apps\'ne, ellers risikerer du dubletter. Vælg også \"Spring over\" ved første synkronisering af beskedder på telefonen, hvor der allerede er backed beskeder op.
+      Wassup Backup er fuldt kompatibelt med SMS Backup. Men du skal sikre dig at \"Auto backup\" kun er slået til i en af apps\'ne, ellers risikerer du dubletter. Vælg også \"Spring over\" ved første synkronisering af beskedder på telefonen, hvor der allerede er backed beskeder op.
   </string>
 
   <string name="ui_dialog_brokendroidx_title">DROID X SMS fejl</string>

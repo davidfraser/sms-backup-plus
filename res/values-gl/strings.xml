@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
      Use GMail para gardar os seus SMS. Esta é unha versión mellorada da aplicación "SMS Backup" de
@@ -45,11 +45,11 @@
   <string name="status_restore_canceled_details">%1$d/%2$d elementos reestablecidos con éxito.</string>
 
   <string name="status_unknown_error">Erro</string>
-  <string name="notification_general_error">Erro de SMSBackup+</string>
+  <string name="notification_general_error">Erro de WassupBackup</string>
 
   <string name="status_unknown_error_details">Erro durante o gardado/reestablecemento:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Erro de inicio de sesión</string>
-  <string name="notification_auth_failure">SMSBackup+ erro de inicio de sesión</string>
+  <string name="notification_auth_failure">WassupBackup erro de inicio de sesión</string>
 
   <string name="status_auth_failure_details_xoauth">Erro de autorización XOAuth. Por favor, asegúrese de que ten habilitado IMAP na configuración da súa conta de GMail.</string>
   <string name="status_auth_failure_details_plain">Erro de autorización IMAP.
@@ -179,7 +179,7 @@
 
   <string name="ui_dialog_upgrade_title">Información de actualización</string>
   <string name="ui_dialog_upgrade_msg">
-    SMS Backup+ é completamente compatible con SMS Backup. Sen embargo, asegúres de que o \"Gardado automático\" está só habilitado nunha das aplicacións, do contrario é posible que se creen duplicados. Tamén debería seleccionar \"Omitir\" mensaxes no súa primeira sincronización se as mensaxes do teléfono foron gardadas previamente.
+    Wassup Backup é completamente compatible con SMS Backup. Sen embargo, asegúres de que o \"Gardado automático\" está só habilitado nunha das aplicacións, do contrario é posible que se creen duplicados. Tamén debería seleccionar \"Omitir\" mensaxes no súa primeira sincronización se as mensaxes do teléfono foron gardadas previamente.
   </string>
 
   <string name="ui_dialog_brokendroidx_title">Fallo en SMS do DROID X</string>

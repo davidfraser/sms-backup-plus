@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
      Použijte GMail účet pro zálohování SMS zpráv. Toto je vylepšená verze aplikace "SMS Backup" od
@@ -44,11 +44,11 @@
   <string name="status_restore_canceled_details">%1$d/%2$d položek úspěšně obnoveno.</string>
 
   <string name="status_unknown_error">Chyba</string>
-  <string name="notification_general_error">SMSBackup+ chyba</string>
+  <string name="notification_general_error">WassupBackup chyba</string>
 
   <string name="status_unknown_error_details">Chyba během zálohy/obnovy:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Chyba přihlášení</string>
-  <string name="notification_auth_failure">SMSBackup+ chyba přihlášení</string>
+  <string name="notification_auth_failure">WassupBackup chyba přihlášení</string>
 
   <string name="status_auth_failure_details_xoauth">XOAuth chyba přihlášení. Ujistěte se prosím, že jste povolili IMAP v nastavení svého GMail účtu.</string>
   <string name="status_auth_failure_details_plain">IMAP chyba přihlášení.
@@ -154,7 +154,7 @@
 
   <string name="ui_dialog_upgrade_title">Informace o upgradu</string>
   <string name="ui_dialog_upgrade_msg">
-   SMS Backup+ je plně zpětně kompatibilní s SMS backup. Přesto se ujistěte, že \"Auto backup\" je povolen jen v jedné aplikaci, jinak je možný vznik duplikací. Měli byste také zvolit \"Skip\" zprávy pro první migraci, pokud zprávy v telefonu již byly dříve zálohovány.
+   Wassup Backup je plně zpětně kompatibilní s SMS backup. Přesto se ujistěte, že \"Auto backup\" je povolen jen v jedné aplikaci, jinak je možný vznik duplikací. Měli byste také zvolit \"Skip\" zprávy pro první migraci, pokud zprávy v telefonu již byly dříve zálohovány.
   </string>
 
   <string name="ui_dialog_brokendroidx_title">DROID X SMS chyba</string>

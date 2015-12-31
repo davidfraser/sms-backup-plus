@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
       备份您的信息到Gmail，本软件是由  Christoph Studer
@@ -45,11 +45,11 @@
   <string name="status_restore_canceled_details">成功还原了 %1$d/%2$d 个项目</string>
 
   <string name="status_unknown_error">错误</string>
-  <string name="notification_general_error">SMS Backup+ 错误</string>
+  <string name="notification_general_error">Wassup Backup 错误</string>
 
   <string name="status_unknown_error_details">备份/还原时出错:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">登录失败</string>
-  <string name="notification_auth_failure">SMS Backup+ 登录失败</string>
+  <string name="notification_auth_failure">Wassup Backup 登录失败</string>
 
   <string name="status_auth_failure_details_xoauth">XOAuth 验证失败。请确认您已经在 Gmail 账户中开启了 IMAP。</string>
   <string name="status_auth_failure_details_plain">IMAP 验证失败。
@@ -172,7 +172,7 @@
 
   <string name="ui_dialog_upgrade_title">升级信息</string>
   <string name="ui_dialog_upgrade_msg">
-   SMS Backup+ 完全向下兼容于 SMS Backup。不过请确保“自动备份”仅在一个程序里启用，否则将会出现重复备份。如果您已经对设备中的信息进行过备份，首次备份时应该选择“跳过”。
+   Wassup Backup 完全向下兼容于 SMS Backup。不过请确保“自动备份”仅在一个程序里启用，否则将会出现重复备份。如果您已经对设备中的信息进行过备份，首次备份时应该选择“跳过”。
   </string>
 
   <string name="ui_dialog_brokendroidx_title">DROID X 短信缺陷</string>

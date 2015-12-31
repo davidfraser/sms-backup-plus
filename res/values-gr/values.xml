@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
      Χρήση του Gmail για αποθήκευση των SMS σας. Αυτή είναι μία βελτιωμένη έκδοση της εφαρμογής "SMS Backup" του
@@ -44,11 +44,11 @@
   <string name="status_restore_canceled_details">%1$d/%2$d αντικείμενα επαναφέρθηκαν επιτυχώς.</string>
 
   <string name="status_unknown_error">Error</string>
-  <string name="notification_general_error"> σφάλμα SMSBackup+</string>
+  <string name="notification_general_error"> σφάλμα WassupBackup</string>
 
   <string name="status_unknown_error_details">Σφάλμα κατα την αποθήκευση/αποκατάσταση:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Σφάλμα σύνδεσης</string>
-  <string name="notification_auth_failure">SMSBackup+ Σφάλμα σύνδεσης </string>
+  <string name="notification_auth_failure">WassupBackup Σφάλμα σύνδεσης </string>
 
   <string name="status_auth_failure_details_xoauth">XOAuth σφάλμα πιστοποίησης. Παρακαλώ βεβαιωθείτε οτι ενεργοποιήσατε το IMAP στις ρυθμίσεις του Gmail λογαριασμού σας.</string>
   <string name="status_auth_failure_details_plain">IMAP σφάλμα πιστοποίησης.

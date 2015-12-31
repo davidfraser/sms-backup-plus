@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
      Utilitzeu el Gmail per fer una còpia de seguretat dels SMS. Aquesta és una
@@ -45,11 +45,11 @@
   <string name="status_restore_canceled_details">%1$d/%2$d elements restaurats amb èxit.</string>
 
   <string name="status_unknown_error">Error</string>
-  <string name="notification_general_error">Error d\'SMSBackup+</string>
+  <string name="notification_general_error">Error d\'WassupBackup</string>
 
   <string name="status_unknown_error_details">Hi ha hagut un error durant la còpia/restauració:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Error d\'inici de sessió</string>
-  <string name="notification_auth_failure">Error d\'inici de sessió d\'SMSBackup+</string>
+  <string name="notification_auth_failure">Error d\'inici de sessió d\'WassupBackup</string>
 
   <string name="status_auth_failure_details_xoauth">Error d\'autorització XOAuth. Assegureu-vos que heu habilitat l\'IMAP a la configuració del compte de Gmail.</string>
   <string name="status_auth_failure_details_plain">Error d\'autorització IMAP.
@@ -181,7 +181,7 @@
 
   <string name="ui_dialog_upgrade_title">Informació d\'actualització</string>
   <string name="ui_dialog_upgrade_msg">
-   L\'SMS Backup+ és totalment compatible cap enrere amb l\'SMS Backup. Assegureu-vos però que la \"Còpia automàtica\" només està habilitada en una aplicació, en cas contrari us podríeu trobar duplicats. També hauríeu de seleccionar \"Omet\" els missatges per a la primera sincronització si ja s\'ha fet una còpia dels missatges del telèfon.
+   L\'Wassup Backup és totalment compatible cap enrere amb l\'SMS Backup. Assegureu-vos però que la \"Còpia automàtica\" només està habilitada en una aplicació, en cas contrari us podríeu trobar duplicats. També hauríeu de seleccionar \"Omet\" els missatges per a la primera sincronització si ja s\'ha fet una còpia dels missatges del telèfon.
   </string>
 
   <string name="ui_dialog_brokendroidx_title">Error d\'SMS DROID X</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
      Usa Gmail per fare il backup dei tuoi SMS. Questa è una versione migliorata dell\'applicazione "SMS Backup" di
@@ -44,11 +44,11 @@
   <string name="status_restore_canceled_details">%1$d/%2$d elementi ripristinati con successo.</string>
 
   <string name="status_unknown_error">Errore</string>
-  <string name="notification_general_error">Errore SMSBackup+</string>
+  <string name="notification_general_error">Errore WassupBackup</string>
 
   <string name="status_unknown_error_details">Errore durante il backup/ripristino:\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Errore login</string>
-  <string name="notification_auth_failure">Errore login SMSBackup+</string>
+  <string name="notification_auth_failure">Errore login WassupBackup</string>
 
   <string name="status_auth_failure_details_xoauth">Errore autorizzazione XOAuth. Si prega di controllare di aver attivato IMAP nelle impostazioni del proprio account Gmail.</string>
   <string name="status_auth_failure_details_plain">Errore autorizzazione IMAP.
@@ -170,7 +170,7 @@
 
   <string name="ui_dialog_upgrade_title">Aggiorna informazioni</string>
   <string name="ui_dialog_upgrade_msg">
-   SMS Backup+ è compatibile al 100%% con SMS Backup. Tuttavia assicurati che \"Backup automatico\" sia abilitato solo su una delle due applicazioni, altrimenti si potrebbero ottenere dei duplicati. Inoltre è necessario selezionare \"Ignora\" messaggi per la tua prima sincronizzazione se i messaggi sul telefono sono già stati salvati precedentemente.
+   Wassup Backup è compatibile al 100%% con SMS Backup. Tuttavia assicurati che \"Backup automatico\" sia abilitato solo su una delle due applicazioni, altrimenti si potrebbero ottenere dei duplicati. Inoltre è necessario selezionare \"Ignora\" messaggi per la tua prima sincronizzazione se i messaggi sul telefono sono già stati salvati precedentemente.
   </string>
 
   <string name="ui_dialog_brokendroidx_title">DROID X SMS Bug</string>

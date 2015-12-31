@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">SMS Backup+</string>
+  <string name="app_name">Wassup Backup</string>
 
   <string name="app_description">
      Используйте почту Gmail для резервного копирования SMS. Это улучшенная версия программы «SMS Backup»,
@@ -45,11 +45,11 @@
   <string name="status_restore_canceled_details">%1$d из %2$d объектов успешно восстановлено.</string>
 
   <string name="status_unknown_error">Ошибка</string>
-  <string name="notification_general_error">Ошибка SMSBackup+</string>
+  <string name="notification_general_error">Ошибка WassupBackup</string>
 
   <string name="status_unknown_error_details">Ошибка сохранения/восстановления\n<xliff:g id="error_description">%1$s</xliff:g></string>
   <string name="status_auth_failure">Ошибка авторизации</string>
-  <string name="notification_auth_failure">SMSBackup+ не удалось авторизоваться на сервере</string>
+  <string name="notification_auth_failure">WassupBackup не удалось авторизоваться на сервере</string>
 
   <string name="status_auth_failure_details_xoauth">Ошибка XOAuth. Проверьте, включён ли доступ по IMAP в настройках Gmail.</string>
   <string name="status_auth_failure_details_plain">Ошибка IMAP. Проверьте правильность логина и пароля.</string>
@@ -166,7 +166,7 @@
 
  <string name="ui_dialog_upgrade_title">Информация о совместимости</string>
   <string name="ui_dialog_upgrade_msg">
-   SMS Backup+ полностью совместим с SMS Backup. Однако, если включить «Автосохранение» в обоих версиях, могут появиться дубликаты SMS. Если вы раньше использовали SMS Backup, нажмите «Пропустить» при первом резервировании.
+   Wassup Backup полностью совместим с SMS Backup. Однако, если включить «Автосохранение» в обоих версиях, могут появиться дубликаты SMS. Если вы раньше использовали SMS Backup, нажмите «Пропустить» при первом резервировании.
   </string>
 
   <string name="ui_dialog_brokendroidx_title">Проблема на Droid X</string>
