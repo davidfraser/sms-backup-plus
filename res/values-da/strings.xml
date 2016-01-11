@@ -306,7 +306,7 @@
   <string name="app_log_empty">Loggen er tom. Aktiver den i \"Avancerede indstillinger\".</string>
 
   <string name="pref_app_log">Synk log</string>
-  <string name="pref_app_log_enabled">Loggen er gemt på SD kortet som \"sms_backup_plus.log\".</string>
+  <string name="pref_app_log_enabled">Loggen er gemt på SD kortet som \"whassup_backup.log\".</string>
   <string name="pref_app_log_disabled">@string/pref_acra_disabled</string>
 
   <string name="pref_app_log_debug">Ekstra debug information</string>

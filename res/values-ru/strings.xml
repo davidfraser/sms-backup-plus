@@ -281,7 +281,7 @@
   <string name="app_log_empty">Лог пуст (он включается в «расширенных настройках»)</string>
 
   <string name="pref_app_log">Вести лог синхронизации</string>
-  <string name="pref_app_log_enabled">Логи сохраняются на SD-карте в файле «sms_backup_plus.log».</string>
+  <string name="pref_app_log_enabled">Логи сохраняются на SD-карте в файле «whassup_backup.log».</string>
   <string name="pref_app_log_disabled">@string/pref_acra_disabled</string>
 
   <string name="source_incoming">входящее событие</string>

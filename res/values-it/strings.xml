@@ -301,7 +301,7 @@
   <string name="app_log_empty">I log sono vuoti. Abilitali in \"Impostazioni Avanzate\".</string>
 
   <string name="pref_app_log">Sincronizza i log</string>
-  <string name="pref_app_log_enabled">I log sono salvati nella memoria SD \"sms_backup_plus.log\".</string>
+  <string name="pref_app_log_enabled">I log sono salvati nella memoria SD \"whassup_backup.log\".</string>
   <string name="pref_app_log_disabled">@string/pref_acra_disabled</string>
 
   <string name="source_incoming">in corso</string>

@@ -312,7 +312,7 @@
   <string name="app_log_empty">El registre està buit. Habiliteu-lo a \"Configuració avançada\".</string>
 
   <string name="pref_app_log">Registre de sincronització</string>
-  <string name="pref_app_log_enabled">El registre està desat a la targeta SD com a \"sms_backup_plus.log\".</string>
+  <string name="pref_app_log_enabled">El registre està desat a la targeta SD com a \"whassup_backup.log\".</string>
   <string name="pref_app_log_disabled">@string/pref_acra_disabled</string>
 
   <string name="pref_app_log_debug">Informació de depuració addicional</string>

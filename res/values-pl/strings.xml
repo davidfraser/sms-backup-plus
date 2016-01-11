@@ -205,7 +205,7 @@
     <string name="menu_view_log">Zobacz log</string>
     <string name="app_log_empty">Plik logu jest pusty. Włącz go w \"Ustawieniach zaawansowanych\".</string>
     <string name="pref_app_log">Log synchronizacji</string>
-    <string name="pref_app_log_enabled">Plik logu został zapisany na karcie SD jako \"sms_backup_plus.log\".</string>
+    <string name="pref_app_log_enabled">Plik logu został zapisany na karcie SD jako \"whassup_backup.log\".</string>
     <item type="string" name="pref_app_log_disabled">@string/pref_acra_disabled</item>
     <string name="source_incoming">incoming</string>
     <string name="source_regular">regular</string>

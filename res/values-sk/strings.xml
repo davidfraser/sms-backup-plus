@@ -209,7 +209,7 @@ Poznámka: Záloha bude rozdelená do dávok po %1$d správach"</string>
     <string name="menu_view_log">Zobraziť denník</string>
     <string name="app_log_empty">Denník je prázdny. Zapnite ho v Pokročilé nastavenia</string>
     <string name="pref_app_log">Denník synchronizácie</string>
-    <string name="pref_app_log_enabled">Denník uložený na SD kartu "sms_backup_plus.log"</string>
+    <string name="pref_app_log_enabled">Denník uložený na SD kartu "whassup_backup.log"</string>
     <string name="pref_app_log_disabled">@string/pref_acra_disabled</string>
     <string name="source_incoming">prichádzajúce</string>
     <string name="source_regular">pravidelné</string>

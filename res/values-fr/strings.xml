@@ -313,7 +313,7 @@
   <string name="app_log_empty">Le journal est vide. Activez-le dans \"Paramètres avancés\".</string>
 
   <string name="pref_app_log">Synchroniser journal</string>
-  <string name="pref_app_log_enabled">Journal stocké sur la carte SD en tant que \"sms_backup_plus.log\".</string>
+  <string name="pref_app_log_enabled">Journal stocké sur la carte SD en tant que \"whassup_backup.log\".</string>
   <string name="pref_app_log_disabled">@string/pref_acra_disabled</string>
 
   <string name="pref_app_log_debug">Informations supplémentaires de débuggage</string>

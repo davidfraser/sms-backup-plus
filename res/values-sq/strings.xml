@@ -233,7 +233,7 @@
   <string name="menu_view_log">Shihni ditarin</string>
   <string name="app_log_empty">Ditari është bosh. Aktivizoheni tek \"Aranzhimet e avancuara\".</string>
   <string name="pref_app_log">Sinkronizoni ditarin</string>
-  <string name="pref_app_log_enabled">Ditari është i ruajtur në kartën SD si \"sms_backup_plus.log\".</string>
+  <string name="pref_app_log_enabled">Ditari është i ruajtur në kartën SD si \"whassup_backup.log\".</string>
   <string name="pref_app_log_disabled">@string/pref_acra_disabled</string>
   <string name="pref_app_log_debug">Informacion rregullimi ekstra</string>
   <string name="pref_app_log_debug_summary">Aktivizon shënimin e rregullimeve ekstra në ditarin e sinkronizimit</string>

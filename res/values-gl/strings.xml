@@ -309,7 +309,7 @@
   <string name="app_log_empty">O historial está baleiro. Actíveo en \"Configuración avanzada\".</string>
 
   <string name="pref_app_log">Historial de sincronización</string>
-  <string name="pref_app_log_enabled">O historial almacénasa na tarxeta SD como \"sms_backup_plus.log\".</string>
+  <string name="pref_app_log_enabled">O historial almacénasa na tarxeta SD como \"whassup_backup.log\".</string>
   <string name="pref_app_log_disabled">@string/pref_acra_disabled</string>
 
   <string name="source_incoming">entrada</string>

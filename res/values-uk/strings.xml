@@ -237,7 +237,7 @@
 <string name="menu_view_log">Перегляд журналу</string>
 <string name="app_log_empty">Журнал порожній. Увімкніть його в \"Додаткових налаштуваннях\".</string>
 <string name="pref_app_log">Синхронізація журналу</string>
-<string name="pref_app_log_enabled">Журнал зберігається на SD-картку як \"sms_backup_plus.log\".</string>
+<string name="pref_app_log_enabled">Журнал зберігається на SD-картку як \"whassup_backup.log\".</string>
 <string name="pref_app_log_disabled">@string/pref_acra_disabled</string>
 <string name="pref_app_log_debug">Додаткова інформація зневадження</string>
 <string name="pref_app_log_debug_summary">Додати додаткову інформацію зневадження до журналу синхронізації</string>

@@ -18,7 +18,7 @@ CLEAN.include('tmp', 'bin')
 
     namespace :log do
       task :pull do
-        sh "adb #{flag} pull /sdcard/sms_backup_plus.log ."
+        sh "adb #{flag} pull /sdcard/whassup_backup.log ."
       end
     end
 

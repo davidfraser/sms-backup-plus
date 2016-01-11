@@ -305,7 +305,7 @@
   <string name="app_log_empty">Logboek is leeg. Schakel het in bij \"Geavanceerde intsellingen\".</string>
 
   <string name="pref_app_log">Synchronisatielogboek</string>
-  <string name="pref_app_log_enabled">Logboek is opgeslagen op SD-kaart als \"sms_backup_plus.log\".</string>
+  <string name="pref_app_log_enabled">Logboek is opgeslagen op SD-kaart als \"whassup_backup.log\".</string>
   <string name="pref_app_log_disabled">@string/pref_acra_disabled</string>
 
   <string name="pref_app_log_debug">Extra debuginformatie</string>

@@ -296,7 +296,7 @@
   <string name="app_log_empty">Το μητρώο είναι άδειο. Ενεργοποιήστε το \" ρυθμίσεις για προχωρημένους \".</string>
 
   <string name="pref_app_log">Συγχρονισμός μητρώου</string>
-  <string name="pref_app_log_enabled">Το μητρώο είναι υποθηκευμένο στην SD κάρτα σας ως : \"sms_backup_plus.log\".</string>
+  <string name="pref_app_log_enabled">Το μητρώο είναι υποθηκευμένο στην SD κάρτα σας ως : \"whassup_backup.log\".</string>
   <string name="pref_app_log_disabled">@string/pref_acra_disabled</string>
 
   <string name="source_incoming">Εισερχόμενη</string>

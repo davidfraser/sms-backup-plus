@@ -300,7 +300,7 @@
   <string name="app_log_empty">日志为空。请在“高级设置”中启用此功能。</string>
 
   <string name="pref_app_log">同步记录</string>
-  <string name="pref_app_log_enabled">记录会保存在 SD 卡中，名称为“sms_backup_plus.log”</string>
+  <string name="pref_app_log_enabled">记录会保存在 SD 卡中，名称为“whassup_backup.log”</string>
   <string name="pref_app_log_disabled">@string/pref_acra_disabled</string>
 
   <string name="source_incoming">收到新消息</string>

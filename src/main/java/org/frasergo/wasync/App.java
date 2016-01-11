@@ -25,7 +25,7 @@ public class App extends Application {
     public static final boolean DEBUG = BuildConfig.DEBUG;
     public static final boolean LOCAL_LOGV = DEBUG;
     public static final String TAG = "SMSBackup+";
-    public static final String LOG = "sms_backup_plus.log";
+    public static final String LOG = "whassup_backup.log";
 
     public static final Bus bus = new Bus();
 

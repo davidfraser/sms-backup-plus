@@ -304,7 +304,7 @@
   <string name="app_log_empty">기록이 없습니다. \"고급 설정\" 에서 활성화 하세요.</string>
 
   <string name="pref_app_log">동기화 기록</string>
-  <string name="pref_app_log_enabled">SD카드에 \"sms_backup_plus.log\" 로 저장됩니다.</string>
+  <string name="pref_app_log_enabled">SD카드에 \"whassup_backup.log\" 로 저장됩니다.</string>
   <string name="pref_app_log_disabled">@string/pref_acra_disabled</string>
 
   <string name="source_incoming">도착</string>

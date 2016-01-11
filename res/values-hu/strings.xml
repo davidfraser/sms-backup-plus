@@ -310,7 +310,7 @@
   <string name="app_log_empty">A napló üres. A naplózást bekapcsolhatja a \"Haladó beállítások\" alatt.</string>
 
   <string name="pref_app_log">Szinkronizálás naplózása</string>
-  <string name="pref_app_log_enabled">A napló az SD-kártyán az \"sms_backup_plus.log\" nevű fájlban van.</string>
+  <string name="pref_app_log_enabled">A napló az SD-kártyán az \"whassup_backup.log\" nevű fájlban van.</string>
   <string name="pref_app_log_disabled">@string/pref_acra_disabled</string>
 
   <string name="pref_app_log_debug">Extra hibakeresési információ</string>
