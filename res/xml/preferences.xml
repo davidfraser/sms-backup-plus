@@ -56,6 +56,7 @@
             android:summary="@string/ui_settings_advanced_desc">
 
         <PreferenceScreen
+                android:key="backup_settings_screen"
                 android:title="@string/ui_backup_settings_label">
 
             <CheckBoxPreference

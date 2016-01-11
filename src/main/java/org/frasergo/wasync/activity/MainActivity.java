@@ -37,6 +37,7 @@ import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceActivity;
+import android.preference.PreferenceGroup;
 import android.preference.PreferenceManager;
 import android.provider.Telephony;
 import android.text.TextUtils;
@@ -76,6 +77,7 @@ import org.frasergo.wasync.utils.ListPreferenceHelper;
 
 import java.text.DateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
@@ -134,6 +136,24 @@ public class MainActivity extends PreferenceActivity {
         statusPref = new StatusPreference(this);
         statusPref.setOrder(-1);
         getPreferenceScreen().addPreference(statusPref);
+
+        PreferenceGroup preferenceScreen = (PreferenceGroup) getPreferenceScreen().findPreference("backup_settings_screen");
+        for (String removeKey : Arrays.asList("sms_backup_plus_support")) {
+            List<Preference> dependentPrefs = new ArrayList<Preference>();
+            for (int i = 0; i < preferenceScreen.getPreferenceCount(); i++)
+            {
+                Preference pref = preferenceScreen.getPreference(i);
+                if (removeKey.equals(pref.getDependency())) {
+                    dependentPrefs.add(pref);
+                }
+            }
+            for (Preference pref: dependentPrefs) {
+                preferenceScreen.removePreference(pref);
+            }
+            Preference toRemove = preferenceScreen.findPreference(removeKey);
+            if (toRemove != null)
+                toRemove.setEnabled(false);
+        }
 
         int version = Build.VERSION.SDK_INT;
         /*if (version < MIN_VERSION_MMS) {
