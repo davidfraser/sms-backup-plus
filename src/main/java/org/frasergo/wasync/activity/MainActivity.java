@@ -139,17 +139,6 @@ public class MainActivity extends PreferenceActivity {
 
         PreferenceGroup preferenceScreen = (PreferenceGroup) getPreferenceScreen().findPreference("backup_settings_screen");
         for (String removeKey : Arrays.asList("sms_backup_plus_support")) {
-            List<Preference> dependentPrefs = new ArrayList<Preference>();
-            for (int i = 0; i < preferenceScreen.getPreferenceCount(); i++)
-            {
-                Preference pref = preferenceScreen.getPreference(i);
-                if (removeKey.equals(pref.getDependency())) {
-                    dependentPrefs.add(pref);
-                }
-            }
-            for (Preference pref: dependentPrefs) {
-                preferenceScreen.removePreference(pref);
-            }
             Preference toRemove = preferenceScreen.findPreference(removeKey);
             if (toRemove != null)
                 toRemove.setEnabled(false);
